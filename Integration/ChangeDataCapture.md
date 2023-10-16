@@ -27,27 +27,27 @@ Before delivering a platform event message to a subscribed client, the event pay
 
 
 ### Data Life
-Events are stored in the event bus for **3 days (72h)**. Each event contain a "ReplayId" field that can be use to retrieve the event.
+Events are stored in the event bus for `3 days (72h)`. Each event contain a "ReplayId" field that can be use to retrieve the event.
 
 #### Limitations & Allocations
 | Description | Enterprise  | Unlimited |
 |--|--|--|
-|Maximum number of concurrent CometD clients (subscribers) across all channels and for all event types. **[Hard Limit]**|  1K| 2K |  
+|Maximum number of concurrent CometD clients (subscribers) across all channels and for all event types. **[Hard Limit]**|  1K| `2K` |  
 |Maximum number of entities, including standard and custom objects, that you can select for Change Data Capture on the default standard channel or a custom channel. **[Add On]** |  5| 5 | 
 |Maximum number of custom channels. *This allocation is separate from the one for custom platform event channels.* **[Add On]** |  100| 100| 
 |Maximum number of entities, including standard and custom objects, that you can select for Change Data Capture on the default standard channel or a custom channel. If the same entity is selected in multiple channels, it’s counted once toward the allocation. **[Add On]** |  5| 5 | 
-| Event Delivery: maximum number of delivered event notifications in the last 24 hours, shared by all clients. (Applies to CometD and Pub/Sub API clients, empApi Lightning components, and event relays only.) **[Add On]** |  25k| 50k | 
+| Event Delivery: maximum number of delivered event notifications in the last 24 hours, shared by all clients. (Applies to CometD and Pub/Sub API clients, empApi Lightning components, and event relays only.) **[Add On]** |  25k| `50k` | 
 
 #### Change Data Capture add-on license
 This add-on can be purchased multiple times. The add-on is increasing the delivery by :
  
- - 100k Daily (5x 100k = 500k Technical limit)
- - 3M Monthly
+ - `100k Daily (5x 100k = 500k Technical limit)`
+ - `3M Monthly`
  
 | Description | Enterprise  | Unlimited 
 |--|--|--|
-|Maximum number of entities, including standard and custom objects, that you can select for Change Data Capture on the default standard channel or a custom channel.|  No Limit| No Limit |  
-| Event Delivery: maximum number of delivered event notifications in the last 24 hours, shared by all clients. (Applies to CometD and Pub/Sub API clients, empApi Lightning components, and event relays only.)|  Last 24 hours: **+100k**. Monthly entitlement: **+3M**| Last 24 hours: **+100k**. Monthly entitlement: **+3M** | 
+|Maximum number of entities, including standard and custom objects, that you can select for Change Data Capture on the default standard channel or a custom channel.|  No Limit|`No Limit` |  
+| Event Delivery: maximum number of delivered event notifications in the last 24 hours, shared by all clients. (Applies to CometD and Pub/Sub API clients, empApi Lightning components, and event relays only.)|  Last 24 hours: **+100k**. Monthly entitlement: **+3M**| Last 24 hours: `+100k`. Monthly entitlement: `+3M` | 
 
 ### Documentation
 
