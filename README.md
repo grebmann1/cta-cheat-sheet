@@ -5,8 +5,11 @@
  2. [Sharing](Core/Sharing.md)
  3. [Flows](Core/Flows.md)
 
-## AppExchange
- 1. [AppExchange solutions](AppExchange/AppExchange.md)
+## Solution
+ 1. [AppExchange solutions](Solutions/AppExchange.md)
+ 2. [Documentation Generation](Solutions/DocumentGeneration.md)
+ 3. [E-Signature](Solutions/ESignature.md)
+ 4. [CTI - Telephony](Solutions/CTI.md)
 
 ## Integration
  1. [Integration](Integration/Integration.md)

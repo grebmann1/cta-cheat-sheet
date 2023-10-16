@@ -3,9 +3,6 @@
 App Exchange can be used to provide simple and easy to configure to solutions to business challenges.
 App Exchange solutions should be investigated before building a custom solution in APEX.
 
-
-
-
 ## External Applications
 
 ### A non exhaustive list of solution available in App Exchange
@@ -17,20 +14,14 @@ App Exchange solutions should be investigated before building a custom solution 
 | Digital/Electronic Signatures | Paid| Docusign  | [More Details](./ESignature.md)|
 | Document Generation    | Paid| Conga Composer   | [More Details](./DocumentGeneration.md)|
 | Enterprise Data Backup, Metadata Backup, Restore, Archiving & more | Paid | OwnBackup | |
-| File Storage   | Paid| S-Drive   | Can store Image, Pdf, Videos, etc|
+| File Storage   | Paid| S-Drive   | [More Details](../Storage/FileStorage.md)|
 | Address Validation| Free| AddressTools| Validation & Standardization   |
 | Send SMS| Paid| SMS Magic | Can be used for SMS, Facebook Messenger, and WhatsApp |
 
-### External Solution that aren't available in App Exchange
+## External Solution that aren't available in App Exchange
 
-#### Secure Pay
-Secure Pay is a payment gateway that can be connected to Salesforce. [go to site](https://www.securepay.com.au/)
 
-Integration Recommendations : 
-- API (LWC ↔ Apex Controller ↔  Mulesoft ↔ Secure Payment)
-- Rest API, JWT with 2 way SSL
-
-#### Snow Flake
+### Snow Flake
 Snow Flake is a Cloud Based Data Warehouse solution. [go to site](https://www.snowflake.com/en/data-cloud/workloads/data-warehouse/)
 
 Integration Recommendations : 
