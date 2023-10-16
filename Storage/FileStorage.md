@@ -26,7 +26,7 @@ File connect can be used to use file from Google Drive, Dropbox, etc
 | Professional  | 10 GB  | 612MB
 | Enterprise    | 10 GB  | 2GB 
 | Performance   | 10 GB  | 2GB
-| Unlimited     | 10 GB  | 2GB
+| Unlimited     | `10 GB`  | `2GB`
 | Developer     | 20 MB   | N/A
 
 

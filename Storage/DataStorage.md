@@ -46,5 +46,5 @@ Data storage = `10GB + number of licenses * license allocations`
 | Professional  | 10 GB  | 20MB
 | Enterprise    | 10 GB  | 20MB 
 | Performance   | 10 GB  | 120 MB (20MB for Lightning Platform)
-| Unlimited     | 10 GB  | 120 MB (20MB for Lightning Platform)
+| Unlimited     | `10 GB`  | `120 MB` (20MB for Lightning Platform)
 | Developer     | 5 MB   | N/A

@@ -10,6 +10,7 @@
  2. [Documentation Generation](Solutions/DocumentGeneration.md)
  3. [E-Signature](Solutions/ESignature.md)
  4. [CTI - Telephony](Solutions/CTI.md)
+ 5. [Payment Gateway](Solutions/Payment.md)
 
 ## Integration
  1. [Integration](Integration/Integration.md)
