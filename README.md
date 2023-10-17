@@ -1,34 +1,34 @@
 # CTA Cheat Sheet
 
 ## Core
- 1. [Salesforce Features](Core/Features.md)
- 2. [Sharing](Core/Sharing.md)
- 3. [Flows](Core/Flows.md)
+ 1. [Salesforce Features](Documentation/Core/Features.md)
+ 2. [Sharing](Documentation/Core/Sharing.md)
+ 3. [Flows](Documentation/Core/Flows.md)
 
 ## Solution
- 1. [AppExchange solutions](Solutions/AppExchange.md)
- 2. [Documentation Generation](Solutions/DocumentGeneration.md)
- 3. [E-Signature](Solutions/ESignature.md)
- 4. [CTI - Telephony](Solutions/CTI.md)
- 5. [Payment Gateway](Solutions/Payment.md)
+ 1. [AppExchange solutions](Documentation/Solutions/AppExchange.md)
+ 2. [Documentation Generation](Documentation/Solutions/DocumentGeneration.md)
+ 3. [E-Signature](Documentation/Solutions/ESignature.md)
+ 4. [CTI - Telephony](Documentation/Solutions/CTI.md)
+ 5. [Payment Gateway](Documentation/Solutions/Payment.md)
 
 ## Integration
- 1. [Integration](Integration/Integration.md)
- 2. [Change Data Capture](Integration/ChangeDataCapture.md)
- 3. [Platform Event](Integration/PlatformEvent.md)
- 4. [Salesforce Connect](Integration/SalesforceConnect.md)
+ 1. [Integration](Documentation/Integration/Integration.md)
+ 2. [Change Data Capture](Documentation/Integration/ChangeDataCapture.md)
+ 3. [Platform Event](Documentation/Integration/PlatformEvent.md)
+ 4. [Salesforce Connect](Documentation/Integration/SalesforceConnect.md)
 
  ## Limits
- 1. [API Request Limits](Limitations/APIRequestLimits.md)
- 2. [Apex Governor Limits](Limitations/ApexGovernorLimits.md)
- 3. [Bulk API Limits](Limitations/BulkApis.md)
- 4. [Sharing Limits](Limitations/SharingLimits.md)
- 5. [Reporting Limits](Limitations/ReportingLimits.md)
+ 1. [API Request Limits](Documentation/Limitations/APIRequestLimits.md)
+ 2. [Apex Governor Limits](Documentation/Limitations/ApexGovernorLimits.md)
+ 3. [Bulk API Limits](Documentation/Limitations/BulkApis.md)
+ 4. [Sharing Limits](Documentation/Limitations/SharingLimits.md)
+ 5. [Reporting Limits](Documentation/Limitations/ReportingLimits.md)
 
  ## Storage
- 1. [Data Storage](Storage/DataStorage.md)
- 2. [File Storage](Storage/FileStorage.md)
+ 1. [Data Storage](Documentation/Storage/DataStorage.md)
+ 2. [File Storage](Documentation/Storage/FileStorage.md)
 
 ## Experience Cloud
 
- 1. [Object & Features based on licenses](ExperienceCloud/Licenses.md)
+ 1. [Object & Features based on licenses](Documentation/ExperienceCloud/Licenses.md)
