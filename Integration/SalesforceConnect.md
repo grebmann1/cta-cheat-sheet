@@ -59,17 +59,17 @@ These adapter are available for Salesforce Connect
 #### Limitations & Allocations for Salesforce Connect 
 | Description | Unlimited, Enterprise & Performance | Comment |
 |--|--|--|
-| Maximum external objects per org.| 200 |  **[Hard Limit]**
-| Maximum new rows retrieved by SOSL and Salesforce searches per hour.| 100k | This limit doesn’t apply to high-data-volume external data sources.
-| Maximum new rows retrieved or created per hour.| 100k | This limit doesn’t apply to: High-data-volume external data sources,Rows that are retrieved only as search results and aren’t opened or edited, Other rows that have already been retrieved
+| Maximum external objects per org.| `200` |  **[Hard Limit]**
+| Maximum new rows retrieved by SOSL and Salesforce searches per hour.| `100k` | This limit doesn’t apply to high-data-volume external data sources.
+| Maximum new rows retrieved or created per hour.| `100k` | This limit doesn’t apply to: High-data-volume external data sources,Rows that are retrieved only as search results and aren’t opened or edited, Other rows that have already been retrieved
 |Maximum page size for server-driven paging. | 2k rows 
 
 #### Callout Limits for Salesforce Connect Adapters
 | Description | Unlimited, Enterprise & Performance | Comment |
 |--|--|--|
 |Cross-org adapter | No callout limits |API Usage limit apply on the provider org.
-| Odata 2.0 and 4.0| **20k/hour**| **Add on** available to increase the limits.
-| Odata 4.01 | **No callout limits**
+| Odata 2.0 and 4.0| `20k/hour`| **Add on** available to increase the limits.
+| Odata 4.01 | `No callout limits`
 | Custom Adapter | Callout and Apex Execution limits apply | Adapter built in apex using the Apex Connector Framework.
 | Amazon DynamoDN, Amazon Athena| No callout limits
 | GraphQL | No callout limits

@@ -28,5 +28,5 @@ Integration Recommendations :
 - Connector (ODBC, JDBC drivers, ETL , REST)
 
 
-#### Selenium 
+### Selenium 
 Selenium is an UI Testing tool that can be used during the CI/CD process
