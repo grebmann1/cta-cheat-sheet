@@ -1,11 +1,10 @@
-# Experience Cloud - Licenses 
+# Experience Cloud  
 
-### When to use CDC ?
+## Which User License should you use  ?
 
- 1. Real Time Integration
- 2. Update external system when change occurred
+![Licenses](../../Images/ExperienceCloud_licence_1.png)
 
-### Standard Objects
+### Standard Objects availables
 |LICENSE NAME	|EXTERNAL APPS LICENSE	|CUSTOMER COMMUNITY LICENSE	|CUSTOMER COMMUNITY PLUS LICENSE| PARTNER COMMUNITY LICENSE	|CHANNEL ACCOUNT LICENSE|
 |--|--|--|--|--|--|
 USE CASE|	B2C	|B2C	|B2B	|B2B	|B2B

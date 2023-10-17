@@ -6,7 +6,9 @@
  3. [Flows](Documentation/Core/Flows.md)
 
 ## Specific Clouds
- 1. [Experience Cloud](Documentation/ExperienceCloud/Licenses.md)
+ 1. [Sales Cloud](Documentation/Product%20&%20Clouds/SalesCloud.md)
+ 2. [Service Cloud](Documentation/Product%20&%20Clouds/ServiceCloud.md)
+ 3. [Experience Cloud](Documentation/Product%20&%20Clouds/ExperienceCloud.md)
  
 ## Solution
 To solve business requirements, existing applications can be directly installed from [App Exchange](Documentation/Solutions/AppExchange.md).
@@ -32,7 +34,3 @@ To solve business requirements, existing applications can be directly installed 
 ## Data & File Storage
 1. [Data Storage](Documentation/Storage/DataStorage.md)
 2. [File Storage](Documentation/Storage/FileStorage.md)
-
-## Experience Cloud
-
- 
