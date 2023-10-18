@@ -1,59 +1,65 @@
-# Experience Cloud  
+# Experience Cloud
 
-## Which User License should you use  ?
+## External User Licenses
+Important, it's forbidden to use `Experience Cloud Licenses` for internal users.
+
+A user with a Partner Community license must be associated with a business account that is enabled as a partner account.\
+`Partner users can’t be associated with person accounts`.
+
 
 ![Licenses](../../Images/ExperienceCloud_licence_1.png)
 
-### Standard Objects availables
-|LICENSE NAME	|EXTERNAL APPS LICENSE	|CUSTOMER COMMUNITY LICENSE	|CUSTOMER COMMUNITY PLUS LICENSE| PARTNER COMMUNITY LICENSE	|CHANNEL ACCOUNT LICENSE|
+## Salesforce Features, Capability, and Custom Objects
+|Feature| External App| Customer Community | Customer Community Plus | Partner Community | Channel |
 |--|--|--|--|--|--|
-USE CASE|	B2C	|B2C	|B2B	|B2B	|B2B
-Account Contact Relationships (Contacts to Multiple Accounts) |	✅|	✅|	✅|	✅|	✅
-Accounts	|	✅ \_RU_|	✅ \_RU_|	✅ CRU_|	✅ CRU_|	✅ CRU_
-Assets	| ✅ CRU_| ✅ CRU_| ✅ CRU_| ✅ CRU_ |✅ CRU_
-Campaigns				|❌ |❌ |❌ | ✅ CRU_| ✅ CRU_
-Cases|	❌| ✅ CRU_| ✅ CRU_| ✅ CRU_| ✅ CRU_
-Contacts	| ✅ CRU_ | ✅ CRU_ | ✅ CRU_ | ✅ CRU_ | ✅ CRU_ 
-Contracts	| ✅ CRU_ | ✅ CRUD | ✅ CRUD | ✅ CRUD | ✅ CRUD 
-Dashboards	|❌|❌| ✅ Read Only |✅	| ✅
-Documents	| ✅ Read Only| ✅ Read Only| ✅ Read Only| ✅ Read Only| ✅ Read Only
-Entitlements	|❌	| ✅ CRU_ | ✅ CRU_ | ✅ CRU_ | ✅ CR__
-External Objects (Salesforce Connect)	| ✅ CRU_ | ✅ CRU_ | ✅ CRU_ | ✅ CRU_ | ✅ CR__
-Events and Calendar |❌| ✅ Read| ✅ CRU_| ✅ CRUD | ✅ CRU_
-Ideas	| ✅ CRU_ | ✅ CR__| ✅ CR__| ✅ CR__| ✅ CR__
-Leads	|❌|❌|❌| ✅ CRU_ | ✅ CRU_
-List Views	| ✅ CRU_ | ✅ CRU_ | ✅ CRU_ | ✅ CRU_ | ✅ CRU_
-Notes and Attachments |	❌|✅ Exceptions apply |✅|✅|✅
-Opportunities				|❌|❌|❌| ✅ CRU_ | ✅ CRU_ 
-Orders	| ✅ CRUD | ✅ CRUD | ✅ CRUD | ✅ CRUD | ✅ CRUD 
-Price Books	| ✅ R | ✅ R | ✅ R | ✅ R | ✅ R 
-Products	| ✅ R | ✅ R | ✅ R | ✅ R | ✅ R 
-Quotes		|❌|❌|❌| ✅ CRU_ | ✅ CRU
-Reports		|❌|❌|✅ Create and Manage| ✅ Create and Manage | ✅ Create and Manage
-Return Orders		|❌| ✅ CRU_ | ✅ CRU_ | ✅ CRU_ | ✅ CRU_ 
-Salesforce CMS Functionality |❌	|	✅	|✅	|✅	|✅
-Service Appointment		|❌| ✅ CRU_ | ✅ CRU_ | ✅ CRU_ | ✅ CRU_ 
-Task	|Read Only	| ✅ CRU_| ✅ CRUD | ✅ CRUD | ✅ CRU_
-Work Order		|❌| ✅ CRU_ | ✅ CRU_ | ✅ CRU_ | ✅ CR__ 
-Work Order Line Item|❌| ✅ CRU_ | ✅ CRU_ | ✅ CRU_ | ✅ CRU_
-
-
-### Salesforce Features, Capability, and Custom Objects
-2MB/1MB mean 2MB License based and 1MB Login based
-
-|Feature	|External App License| Community License|Community License Plus|Partner License|Channel Account|
-|--|--|--|--|--|--|
-|Extra Data Storage | 10MB | 0 | 2MB/1MB | 5MB/1MB | 5MB/1MB
+| Accounts| Read & Edit| Read & Edit| ✅ | ✅ | ✅ |
+| Contacts| ✅| ✅| ✅ | ✅ | ✅ |
+| Cases|❌ | ✅| ✅ | ✅ |✅ |
+| Knowledge | ✅| ✅| ✅ | ✅ | ✅ |
+| Opportunities |❌|❌|❌| ✅ | ✅ |
+| Leads|❌|❌|❌| ✅ | ✅ |
+| Custom Objects*| 100| 10| 10| 10 | 10|
+| Send Email| ❌|❌| ✅| ✅ | ✅ |
+| Sharing Sets| ✅| ✅| ✅ | ✅ | ✅ |
+| Advanced Sharing Rules |❌|❌| ✅| ✅ | ✅ |
+| Reports & Dashboards |❌|❌| Read Only| ✅ | ✅ | ✅ |
+| Territory Management|❌|❌|❌|✅|✅
+| Workflow Approvals	|❌|✅|✅|✅|✅
+| Extra Data Storage | 10MB | 0 | 2MB/1MB | 5MB/1MB | 5MB/1MB
 | API Calls per Day | 200/400 | 0 | 200/10 | 200/10 | 200/10
-|Chatter (People, Groups, Feeds, Private Messages)|✅|✅|✅|✅|✅
-|Custom Objects	| 100 | 10 | 10 | 10 | 10
-|Delegated Administration|| | ✅	|✅ |	✅
-|Files|✅ Content Libraries aren't available with External Apps licenses.|✅ Content Libraries aren't available with Customer Community licenses.|✅ CRUD |✅ CRUD |✅ CRUD 
-|Knowledge	|✅	|✅	|✅	|✅	|✅
-|Roles and Standard Sharing		|❌|❌|	✅	|✅	|✅
-|Sharing Sets |✅|✅|✅|✅|✅
-|Salesforce App	|✅|✅|✅|✅|✅
-|Send Email		|❌|❌|✅|✅|✅
-|Territory Management		|❌|❌|❌|✅	|✅
-|Recognition Badges |	✅	|✅	|✅	|✅	|✅
-|Workflow Approvals		|❌|✅	|✅	|✅	|✅
+
+
+## Templates
+Salesforce provide base template to quickly implement experience cloud such as :
+- Help Center (Articles)
+- Customer Service (Self service)
+- Customer Account Portal
+- Partner Central (Sales processes)
+
+You can also create your own templates and use differents technologies such as :
+- LWR (Lightning Web Runtime)
+- Salesforce Tabs + Visualforce
+
+## Experience Cloud Sites Usage Allocation
+Experience Cloud site usage is governed by daily, monthly, and yearly allocations. Understanding these allocations is important to the success of your sites. `Add-on can be purchased`.
+
+| EDITION | BANDWIDTH ALLOCATION (PER ROLLING 24-HOUR PERIOD PER COMMUNITY) | SERVICE REQUEST TIME (PER ROLLING 24-HOUR PERIOD PER SITE) | MAXIMUM PAGE VIEWS |
+|--|--|--|---|
+| Enterprise Edition  | 40 GB | 60h| 500k|
+| Unlimited & Performance Edition   | 40 GB for production| 60 hours for production| 1M|
+
+## Personal Contact Information visibility
+Users can specify which information from their profile is visible to external users, such as customers and partners, and guests viewing publicly accessible pages that don’t require login.
+
+When interacting with other Experience Cloud site members, it’s important to balance being visible and accessible with protecting your personal contact information. You may not want to show your job title, phone numbers, and other contact details outside of your internal organization. Your customers and partners may not want other customers and partners viewing all their contact information.
+
+Use either the user interface or API to control visibility. You can choose to expose fields to employees only, members of the site from outside your company, or guest users who aren’t required to log in. Some fields are always visible to everyone accessing the site. Some fields allow up to three levels of visibility, while others allow fewer.
+
+- `Employees` Only members from the internal organization can view.
+- `External` Members from the internal organization and external members, such as customers and partners, can view. External users are those accessing Experience Cloud sites with community or legacy portal licenses.
+- `Public` Anyone can view, including guest users viewing publicly accessible pages that don’t require login. Guest users can access public pages in sites via the Guest User license associated with each Experience Cloud site.
+
+
+## Account Role Optimization (High Volumes Site)
+If you expect a large volume of business accounts with a single Experience Cloud user, we recommend enabling Account Role Optimization (ARO) to ensure the best performance possible.\
+If the account has a single user, then roles aren’t created for that account. Configure person account owner power users if your site must support even more customer or partner portal accounts.

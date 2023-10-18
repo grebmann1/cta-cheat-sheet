@@ -1,6 +1,6 @@
 # Service Cloud  
-
-## What features are included ?
+## Features
+### What features are included ?
 
 - Service Console
 - Knowledge Lightning
@@ -17,7 +17,7 @@
 - `Entitlement & Milestone`
 - Next Best Action (AI empowered - 5k req/month)
 
-## What features are available as an Add-On
+### What features are available as an Add-On
 - Live Agent (`Free with Unlimited edition`)
 - Service Voice (CTI) [link](https://www.salesforce.com/products/service-cloud/solutions/call-center-management/?d=cta-body-promo-297)
 - Einstein Bots (Chatbots)
@@ -27,9 +27,14 @@
 - Appointment Assistant
 - Sales & Service Cloud bundle
 
+
+# Documentation 
+
+## Data Model
+### Overview
+![Data Model](/Images/serviceCloud-datamodel-2.png)
+
 ## Routing
-
-
 ### Omnichannel
 
 Omni-Channel is a flexible, customizable feature, and you can configure it declaratively—that is, without writing code. Use Omni-Channel to manage the priority of work items, which makes it a cinch to route important work items to agents quickly.\
@@ -38,8 +43,8 @@ Manage your agents’ capacity to take on work items so that they’re given onl
 Omni-Channel routes work requests to the most available and qualified support agents in the console. You can also provide real-time operational intelligence to support supervisors with Omni Supervisor. Agents no longer have to pick and choose work assignments manually from a queue, which saves everyone in your call center time, effort, and brainpower. Because it’s easier for agents to work on their assignments, they can assist your customers faster and more effectively and close assignments more quickly.
 
 Routing logic is applied when work is assigned to an owner. If field values on the work item are changed after the item is routed, the routing logic isn’t reapplied.
-### Assignement Rules
 
+### Assignement Rules
 Assignment rules automate your organization’s lead generation and support processes.\
 Use lead assignment rules to specify how leads are assigned to users or queues. Use case assignment rules to determine how cases are assigned to users or put into queues.
 
