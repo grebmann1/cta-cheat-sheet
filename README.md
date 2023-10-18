@@ -1,7 +1,7 @@
 # CTA Cheat Sheet
 
 ## Core
- 1. [Salesforce Features](Documentation/Core/Features.md)
+ 1. [Salesforce Editions](Documentation/Core/Editions.md)
  2. [Sharing](Documentation/Core/Sharing.md)
  3. [Flows](Documentation/Core/Flows.md)
 
