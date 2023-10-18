@@ -26,7 +26,7 @@ Historical trend reporting uses a special custom report type designed to highlig
 
 Historical tracking must be enabled for each object (including the fields) that you want to track.
 
-![Screenshot](../Images/report-historical-1.png)
+![Screenshot](../../Images/report-historical-1.png)
 
 ## Snapshots
 Reporting snapshots allow you to load data from a custom report to a custom object on a regularly scheduled basis. Reporting snapshots enable you to work with report data as you would with other records in salesforce.com.
