@@ -16,6 +16,12 @@
 SAML is xml based and is the most used SSO protocol.
 OpenId Connect is an extension of OAuth2.0 with data structure in JSON. (Mainly used by social media application.)
 
+## Terms & Definitions
+
+### Authorization Code Request
+The authorization code grant is used when an application exchanges an authorization code for an access token.\
+After the user returns to the application via the redirect URL, the application will get the authorization code from the URL and use it to request an access token.
+
 
 # SSO Flow
 ## SAML Flows

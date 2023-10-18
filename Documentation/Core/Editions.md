@@ -1,6 +1,8 @@
-# Core - Features
+# Core - Editions
 
-### Features included/allocated for each Salesforce Editions
+## Platform Licenses
+
+## Features included/allocated for each Salesforce Editions
 
 || Feature | Professional | Enterprise | Unlimited |
 |--|--|--|--|--|
@@ -34,3 +36,4 @@
 || Max Event Delivery (24h) | 10k | 25K | 50k
 || Max Event Publishing (1h)| 250k | 250k |250k
 || CDC Object Limits | 5 | 5 | 5 
+
