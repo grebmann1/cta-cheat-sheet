@@ -14,6 +14,7 @@
  5. [CRM Analytic](Documentation/Product%20&%20Clouds/CRMAnalytic.md)
 ### Products
  1. [Salesforce Knowledge](Documentation/Product%20&%20Clouds/Knowledge.md)
+ 2. [Salesforce CPQ](Documentation/Product%20&%20Clouds/CPQ.md)
  
 ## Solution
 To solve business requirements, existing applications can be directly installed from [App Exchange](Documentation/Solutions/AppExchange.md).

@@ -13,7 +13,7 @@ The best practice is to first look for a solution matching your telephony system
 
 
 
-![Open CTI](../Images/CTI-1.png)
+![Open CTI](../../Images/CTI-1.png)
 
 
 1. [Open CTI Documentation](https://developer.salesforce.com/docs/atlas.en-us.api_cti.meta/api_cti/sforce_api_cti_intro.htm)

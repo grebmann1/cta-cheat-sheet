@@ -9,7 +9,6 @@ Give website visitors, customers, partners, and service agents the ultimate supp
 To do more than read articles, agents need the `Knowledge User` license
  
 ## Data Model
-
 ![Data Model](../../Images/LightningKnowledge-1.png)
 
 ## Approval Processes

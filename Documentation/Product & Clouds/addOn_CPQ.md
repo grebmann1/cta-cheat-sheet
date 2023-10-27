@@ -1,7 +1,6 @@
 # Salesforce CPQ
 Package that help enabling advanced quoting and build customisable solution.
 ## Licenses
-❌ | ✅
 
 |Features | `CPQ` | `CPQ+` | CPQ & Billing Growth | CPQ+ with Billing|
 |--|--|--|--|--|
@@ -26,6 +25,7 @@ When a permission set is assignd to the user, the permission set license is cons
 ![Product Bundle](../../Images/CTA%20-%20Diagrams%20-%20CPQ%20-%20Pricing.png)
 ### Order Model
 ![Order](../../Images/CTA%20-%20Diagrams%20-%20CPQ%20-%20Order.png)
+
 ## Features
 1. Configure Products
 2. Advanced Pricing Model
@@ -104,6 +104,11 @@ With AOM, you can split orders to create multiple orders from a single quote, le
 | Connect to Back Office | Sync order details to ERP for order fulfillment.|
 
 
+## Billing
+Salesforce Billing is an add-on package that inherits key records and information from Salesforce CPQ. After a sales rep finalizes a quote and orders it within Salesforce CPQ, Salesforce Billing picks up the order record for invoicing, payment, and revenue recognition.
+
+### Billing Data Model
+![Order](../../Images/CTA%20-%20Diagrams%20-%20CPQ%20-%20Billing.png)
 
 ## Plugin configuration with external tools
 CPQ apex architecture allow modification to be easily handled by building Apex interfaces for specifics modules such as (Recommendation, E-Signature, ERP integration, etc)

@@ -32,7 +32,7 @@
     * Conversation Insights
 
 ### What features are available as an Add-On
-* Sales Dialer
+* Sales Dialer (only US)
 * Einstein Conversation Insights
 * Mobile Publisher for Experience Cloud
 * Sales & Service cloud bundle
@@ -40,9 +40,17 @@
 
 # Documentation
 
+## Important Products/ Add - on
+
+|Product|Description|Unlimited | Unlimited + |
+|--|--|--|--|
+|CPQ| Configure,Price & Quote - Speed up sales cycles by giving reps a quick and easy path to creating accurate quotes and contracts.|$|$
+|Enablement| Sell faster with Enablement built directly into your CRM. Embed milestones that tie programs to revenue outcomes, and make every rep a Salesblazer with the best sales enablement platform.|$ |✅ 
+|Salesforce Map | Sell efficiently with sales mapping software built directly into your CRM. View data on a map interface to make smarter decisions and streamline field execution. |$ |✅ 
+
 ## Data Model
 ### Sales process
 ![Data Model](/Images/salesCloud-datamodel-2.png)
 
 ### Campaign & Marketing
-![Data Model](/Images/salesCloud-datamodel-3.png)
+![Data Model](/Images//CTA%20-%20Diagrams%20-%20Sales%20Cloud%20-%20Campaign.png)
