@@ -4,6 +4,7 @@
  1. [Salesforce Editions](Documentation/Core/Editions.md)
  2. [Sharing](Documentation/Core/Sharing.md)
  3. [Flows](Documentation/Core/Flows.md)
+ 4. [Mobile](Documantion/Core/Mobile.md)
 
 ## Clouds & Products
 ### Clouds
@@ -12,11 +13,12 @@
  3. [Experience Cloud](Documentation/Product%20&%20Clouds/ExperienceCloud.md)
  3. [Commerce Cloud](Documentation/Product%20&%20Clouds/CommerceCloud.md)
  5. [Marketing Cloud](Documentation/Product%20&%20Clouds/MarketingCloud.md)
- 6. [CRM Analytic](Documentation/Product%20&%20Clouds/CRMAnalytic.md)
+ 6. [Tableau & CRM Analytics](Documentation/Product%20&%20Clouds/Tableau.md)
 ### Products & Modules
  1. [Salesforce Knowledge](Documentation/Product%20&%20Clouds/Knowledge.md)
  2. [Salesforce CPQ](Documentation/Product%20&%20Clouds/addOn_CPQ.md)
  3. [Salesforce Order Management](Documentation/Product%20&%20Clouds/addOn_OrderManagement.md)
+ 4. [Salesforce Field Service](Documentation/Product%20&%20Clouds/addOn_FieldService.md)
  
 ## Business solution
 To solve business requirements, existing applications/packages can be directly installed from [App Exchange](Documentation/Solutions/AppExchange.md).

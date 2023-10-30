@@ -4,6 +4,9 @@ Salesforce Marketing Cloud is a comprehensive digital marketing platform designe
 Businesses choose to utilize Salesforce Marketing Cloud (SFMC) to centralize all their marketing channels within a single platform. This integration allows marketers to deliver customized messages through the most appropriate channel at precisely the optimal moment.
 
 ## Licenses
+|License| Description|
+|--|--|
+|Marketing Cloud License| Each user using marketing cloud (even via the connector) need to have a Marketing Cloud License|
 
 ## Connector
 Marketing use a specific connector that was designed to connect Salesforce and Marketing Cloud.
