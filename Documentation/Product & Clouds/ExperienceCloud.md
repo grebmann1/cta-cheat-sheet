@@ -63,3 +63,15 @@ Use either the user interface or API to control visibility. You can choose to ex
 ## Account Role Optimization (High Volumes Site)
 If you expect a large volume of business accounts with a single Experience Cloud user, we recommend enabling Account Role Optimization (ARO) to ensure the best performance possible.\
 If the account has a single user, then roles aren’t created for that account. Configure person account owner power users if your site must support even more customer or partner portal accounts.
+
+ARO is really usefull to decrease the amount of external roles.
+
+[More Informations](https://www.learnexperiencecloud.com/article/Configure-Account-Role-Optimization-to-Help-You-Scale-Your-Experience-Cloud-Users)
+
+## External Roles 
+|Role or Community User Allocations | Accocation | Details
+|--|--|--|
+|Total roles for users with licenses that require external users to be associated with roles.| `50k` |	This allocation includes all roles associated with users who hold licenses that require external users to be associated with roles, such as Customer Community Plus and Partner Community licenses. If you need more roles, **contact Salesforce Customer Support and ask for a Large User Volumes assessment.**|
+|Maximum person account site users that a Salesforce user can own.| `50k` |**Contact Salesforce Customer Support to increase this allocation.**
+
+As mentionned, the default allocation is `50k` roles but this can be increased with a SF case (Up to 500k with SF analysis and approval)
