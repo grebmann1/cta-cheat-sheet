@@ -9,7 +9,8 @@ Give website visitors, customers, partners, and service agents the ultimate supp
 To do more than read articles, agents need the `Knowledge User` license
  
 ## Data Model
-![Data Model](../../Images/LightningKnowledge-1.png)
+Be aware that it's not possible to create custom lookups linked to Articles
+![Data Model](../../Images/CTA%20-%20Diagrams%20-%20Knowledge.png)
 
 ## Approval Processes
 Similar to other Salesforce objects, you can establish an approval process for articles, which is particularly useful for content control, especially in a public knowledge base where you need to review customer-facing articles.\

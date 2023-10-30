@@ -9,7 +9,9 @@ With the Order Management app:
 
 # Documentation
 
-## Licensing
+## Licenses
+Salesforce Order Management is provided via a global license based on the "Income". (No User license)
+
 |Features | Order Management - `Order Visibility` | Order Management - `Growth`
 |--|--|--|
 |Complete Lifecycle Management| ❌ |✅

@@ -41,7 +41,7 @@
 
 ## Data Model
 ### Overview
-![Data Model](/Images/serviceCloud-datamodel-2.png)
+![Data Model](/Images/CTA%20-%20Diagrams%20-%20Service%20Cloud.png)
 
 ## Routing
 ### Omnichannel

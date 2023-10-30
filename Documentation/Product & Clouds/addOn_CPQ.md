@@ -2,6 +2,13 @@
 Package that help enabling advanced quoting and build customisable solution.
 ## Licenses
 
+The licensing model is based on `permission set license`.\
+When a permission set is assignd to the user, the permission set license is consummed.
+
+For External users, there is extra licenses:
+- `CPQ for Customer Community`
+- `CPQ for Partner Community`
+
 |Features | `CPQ` | `CPQ+` | CPQ & Billing Growth | CPQ+ with Billing|
 |--|--|--|--|--|
 |Configuration, Pricing, and Quoting | ✅|✅|✅|✅
@@ -12,12 +19,8 @@ Package that help enabling advanced quoting and build customisable solution.
 |Complex Revenue Reporting |❌|❌|❌|✅
 |Automated Payments and Allocations |❌|❌|❌|✅
 
-For External users, there is extra licenses:
-- `CPQ for Customer Community`
-- `CPQ for Partner Community`
 
-The licensing model is based on `permission set license`.\
-When a permission set is assignd to the user, the permission set license is consummed.
+
 ## Data Model
 ### Product Bundle
 ![Product Bundle](../../Images/CTA%20-%20Diagrams%20-%20CPQ%20-%20Product.png)

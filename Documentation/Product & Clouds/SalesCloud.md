@@ -50,7 +50,7 @@
 
 ## Data Model
 ### Sales process
-![Data Model](/Images/salesCloud-datamodel-2.png)
+![Data Model](/Images//CTA%20-%20Diagrams%20-%20Sales%20Cloud%20-%20Sales.png)
 
 ### Campaign & Marketing
 ![Data Model](/Images//CTA%20-%20Diagrams%20-%20Sales%20Cloud%20-%20Campaign.png)
