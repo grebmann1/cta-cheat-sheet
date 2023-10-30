@@ -21,8 +21,13 @@ A user with a Partner Community license must be associated with a business accou
 |--|--|--|--|--|--|
 | Accounts| Read & Edit| Read & Edit| ✅ | ✅ | ✅ |
 | Contacts| ✅| ✅| ✅ | ✅ | ✅ |
+| Assets| ✅| ✅| ✅ | ✅ | ✅ |
+| Contracts | ✅| ✅| ✅ | ✅ | ✅ |
 | Cases|❌ | ✅| ✅ | ✅ |✅ |
 | Knowledge | ✅| ✅| ✅ | ✅ | ✅ |
+| Order | ✅| ✅| ✅ | ✅ | ✅ |
+| Product | Read Only| Read Only| Read Only | Read Only | Read Only |
+| Pricebook | Read Only| Read Only| Read Only| Read Only | Read Only |
 | Opportunities |❌|❌|❌| ✅ | ✅ |
 | Leads|❌|❌|❌| ✅ | ✅ |
 | Events|❌|Read Only|✅| ✅ | ✅ |
