@@ -1,4 +1,5 @@
-# Core - Reporting
+[Home](../../README.md)
+# Reporting
 
 ### What are the differents reports available in Salesforce
  - Tabular (no grouping)

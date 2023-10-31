@@ -1,4 +1,5 @@
-# Core - Sharing
+[Home](../../README.md)
+# Sharing
 
 ## What are the differents way of sharing records ?
 - Organization-Wide Default

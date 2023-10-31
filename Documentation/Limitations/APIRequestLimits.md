@@ -1,4 +1,4 @@
-
+[Home](../../README.md)
 # Limitations - API Request Limits and Allocations 
 
 These limits and allocations apply to Salesforce **Platform SOAP** and **REST APIs** and any other API built on those frameworks, unless noted otherwise.

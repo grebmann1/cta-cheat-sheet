@@ -1,4 +1,5 @@
-# Core - Editions
+[Home](../../README.md)
+# Editions
 
 ## Platform Licenses
 

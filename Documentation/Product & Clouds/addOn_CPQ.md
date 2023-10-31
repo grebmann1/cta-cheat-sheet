@@ -1,3 +1,4 @@
+[Home](../../README.md)
 # Salesforce CPQ
 Package that help enabling advanced quoting and build customisable solution.
 ## Licenses
