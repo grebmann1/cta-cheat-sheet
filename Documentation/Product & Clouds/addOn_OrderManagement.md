@@ -8,8 +8,6 @@ With the Order Management app:
 - Merchants can manage order fulfillment, shipping, payment capture, invoicing, and service by using integrated and customizable business processes and workflows.
 - Service agents can access a master repository of all order-related information, see a global view of the entire order lifecycle, and `process cancellations, returns, exchanges, reshipments, refunds, and discounts`.
 
-# Documentation
-
 ## Licenses
 Salesforce Order Management is provided via a global license based on the "Income". (No User license)
 
@@ -19,6 +17,8 @@ Salesforce Order Management is provided via a global license based on the "Incom
 |Payment| ❌ |✅
 |Invoicing| ❌ |✅
 |Cancellation Return| ❌ |✅
+
+# Documentation
 
 ## Data Model
 ![Data Model](../../Images/CTA%20-%20Diagrams%20-%20Order%20Management.png)

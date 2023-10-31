@@ -47,3 +47,10 @@ To solve business requirements, existing applications/packages can be directly i
 2. [File Storage](Documentation/Storage/FileStorage.md)
 
 ## Auth
+[List of OAuth Flows](Documentation/OAuth%20Flows/OAuthFlows.md)
+
+## Archive & Backup
+[List of OAuth Flows](Documentation/OAuth%20Flows/OAuthFlows.md)
+
+## Security
+1. [Compliance](Documentation/Security/Compliance.md)

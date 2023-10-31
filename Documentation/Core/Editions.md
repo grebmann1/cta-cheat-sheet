@@ -21,7 +21,7 @@
 || Salesforce Billing | $| $| $|
 || Salesforce Engage (Pardot) | $| $| $|
 | **Einstein** | Relationship Insight | | $ | ✅| |
-|| Next Best Action | 5k ✅| 5k ✅ |5k ✅ |
+|| Next Best Action | ✅ 5k |  ✅ 5k | ✅ 5k |
 || Lead Scoring || $| ✅| |
 || Opportunity Scoring || ✅ | ✅| |
 || Deal Insight || ✅| ✅| |

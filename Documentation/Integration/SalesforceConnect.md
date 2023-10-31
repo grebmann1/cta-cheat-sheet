@@ -36,7 +36,7 @@ These features aren't available anymore:
 ### Sharing
 It's currently not possible to control the sharing of External objects. There is currently only a few way to provide some kind of visibility control:
 1. Use LWC with Apex Controller to provie access to the user (Visibility controlled in Apex)
-2. Sharing/visibility controlled on the server side (User context parameter can be provided when configuring the Named Credential)
+2. `Sharing/visibility controlled on the server side` (User context parameter can be provided when configuring the Named Credential)
 
 #### Salesforce Connect Adapters
 These adapter are available for Salesforce Connect
