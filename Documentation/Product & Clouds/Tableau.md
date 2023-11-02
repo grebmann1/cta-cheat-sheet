@@ -1,5 +1,5 @@
 [Home](../../README.md)
-# Tableau
+# Tableau Products
 Tableau is a tool that drive intelligent predictions and recommendations across your analytics to power data-driven action.
 
 ## Integration with Salesforce (Exclusive)
@@ -16,6 +16,9 @@ Tableau is known as `CRM Analytics` in Salesforce as it provide Tableau features
 ![Products](../../Images/CTA%20-%20Diagrams%20-%20Tableau%20-%20Products.png)
 
 
+## When to choose between Tableau and CRM Analytic
+![Tableau vs CRM Analytics](../../Images/CTA%20-%20Diagrams%20-%20Tableau%20-%20Choice.png)
+
 # CRM Analytics
 CRM Analytics is using a specific connector that was designed to connect Salesforce and Tableau.
 
@@ -26,6 +29,8 @@ CRM Analytics is available in the **Salesforce mobile app** or with the unique C
 |--|--|
 |CRM Analytics Growth| Basic, provide `100M` rows/License
 |CRM Analytics Plus| Provide more data `1B` rows/License
+
+For External users, you need to assign the `CRM Analytics for Communities` permission set license.
 
 ## CRM Analytics Limits
 
@@ -64,6 +69,11 @@ Example of Salesforce Connector :
 - Heroku Postgres
 - SAP HANA
 - etc
+
+## Data access and visibility
+If a CRM Analytics user has access to a dataset, the user has access to all records in the dataset by default.\
+To restrict access to records, you can `implement row-level security on a dataset when you use sharing inheritance and security predicates`. Sharing inheritance automatically applies a Salesforce object’s sharing logic to the dataset’s rows.\
+A security predicate is a manually assigned filter condition that defines dataset row access.
 
 ### Schedule, Run, and Monitor Data Sync
 In CRM Analytics, you can schedule sync to run automatically, manually run a sync, and monitor a sync's progress, all in the data manager.

@@ -2,7 +2,7 @@
 Platform is mainly use to take advangate of the Salesforce platform without using the core features provided by Sales/Service clouds.
 
 ## Licenses
-
+There is 2 differents user licenses.
 |Features| Platform Starter | Platform Plus|
 |--|--|--|
 |Custom Objects| 10 | 110|
