@@ -1,5 +1,7 @@
 [Home](../../README.md)
 # Service Cloud  
+## Licenses
+
 ## Features
 ### What features are included ?
 

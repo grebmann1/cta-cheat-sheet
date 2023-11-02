@@ -34,6 +34,7 @@ File connect can be used to use file from Google Drive, Dropbox, etc
 ## File Connect (External Data Storage)
 With Files Connect, Salesforce users can access, share, and search external data from systems like `Quip`, `Google Drive`, `SharePoint`, or `Box`.
 
+Be aware, File Connect isn't made to replace "Attachement". It's only to access Personnal files and share it.
 
 
 ## External Data Storage with App Exchange

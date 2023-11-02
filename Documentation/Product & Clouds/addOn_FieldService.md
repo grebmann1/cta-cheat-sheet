@@ -11,7 +11,7 @@ Here are some of the things you can do.
 - Generate service reports to keep customers informed about service progress
 
 ## Licenses
-Salesforce Field Service user different `user licenses` for each personna.
+Salesforce Field Service user different `user licenses` for each persona.
 
 #### Field Service Licenses
 |Features | Dispatcher | Technician | Contractor | Contractor Plus
@@ -29,9 +29,24 @@ Get the field service bundle that `combines both Technician/Mobile Employee and 
 
 
 
-## Documentation
+# Documentation
 
-### Mobile App
+## Data Model
+
+### Core
+![Data Model Core](../../Images/CTA%20-%20Diagrams%20-%20FSL%20-%20Core.png)
+[More Details](https://developer.salesforce.com/docs/atlas.en-us.field_service_dev.meta/field_service_dev/fsl_dev_soap_core.htm)
+### Inventory Management
+![Data Model Inventory Management](../../Images/CTA%20-%20Diagrams%20-%20FSL%20-%20Inventory%20Management.png)
+
+[More Details](https://developer.salesforce.com/docs/atlas.en-us.field_service_dev.meta/field_service_dev/fsl_dev_soap_inventory.htm)
+
+### Waranty Management
+![Data Model Warranty Management](../../Images/CTA%20-%20Diagrams%20-%20FSL%20-%20Warranty%20Management.png)
+
+[More Details](https://developer.salesforce.com/docs/atlas.en-us.field_service_dev.meta/field_service_dev/fsl_dev_soap_warranty.htm)
+
+## Mobile App
 Field service provide a mobile app available in the differents store. Mobile workers using the app can:
 - work while Offline
 - Scan Barcode

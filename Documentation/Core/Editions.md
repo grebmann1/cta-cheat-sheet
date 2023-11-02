@@ -11,15 +11,15 @@
 || Developer Pro | $| $| ✅|
 || Partial || 1| 1| |
 || Full|| $| 1| |
-| **Service Cloud**| Knowledge Base (Read Write) || $  | ✅|
-|| Live Agent Chat || $| ✅| |
-|| CTI Integration | ✅| ✅| ✅|
-|| Field Service || $ | $| |
 | **Sales Cloud**| Knowledge Base (Read Write) | | $ | ✅ | |
 || Lightning Dialer | $| $| $|
 || Salesforce CPQ | $| $| $|
 || Salesforce Billing | $| $| $|
 || Salesforce Engage (Pardot) | $| $| $|
+| **Service Cloud**| Knowledge Base (Read Write) || $  | ✅|
+|| Live Agent Chat || $| ✅| |
+|| CTI Integration | ✅| ✅| ✅|
+|| Field Service || $ | $| |
 | **Einstein** | Relationship Insight | | $ | ✅| |
 || Next Best Action | ✅ 5k |  ✅ 5k | ✅ 5k |
 || Lead Scoring || $| ✅| |

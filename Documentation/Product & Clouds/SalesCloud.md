@@ -1,6 +1,6 @@
 [Home](../../README.md)
 # Sales Cloud  
-
+## Licenses
 ## Features
 ### What features are included ?
 * Account & Contact Management
