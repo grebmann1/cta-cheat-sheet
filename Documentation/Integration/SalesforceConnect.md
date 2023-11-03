@@ -1,4 +1,4 @@
-[Home](../../README.md) / [Integration](Integration.md)
+[Table of contents](../Documentation.md) / [Integration](Integration.md)
 # Integration - Salesforce Connect 
 
 ### When to use Salesforce Connect ?

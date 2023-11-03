@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Limitations - Sharing Limits
 
 There are two types of sharing rules limits per entity (per object). They are as follows:

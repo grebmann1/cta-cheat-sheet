@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Reporting
 
 ### What are the differents reports available in Salesforce

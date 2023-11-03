@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Sharing
 
 ## What are the differents way of sharing records ?

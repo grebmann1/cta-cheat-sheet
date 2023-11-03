@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Salesforce Field Service
 Running a field service business means managing numerous moving parts. With Field Service, you get the tools that you need to manage work orders, scheduling, and your mobile workforce.\
 Here are some of the things you can do.

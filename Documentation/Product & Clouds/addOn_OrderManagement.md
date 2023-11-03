@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Salesforce Order Management
 Salesforce Order Management is an add-on to provide advanced order management capabilities to Salesforce. 
 

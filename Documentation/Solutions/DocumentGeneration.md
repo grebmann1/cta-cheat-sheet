@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Document Generation
 
 It's important to consider an external solution to improve the user experience. Basic email template is Salesforce are good for simple emails.

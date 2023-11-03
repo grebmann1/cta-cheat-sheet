@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Limitations - Reporting Limits
 
 ### Standard Reporting limits

@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Data Storage 
 
 ## Data Storage include these objects:

@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Limitations - Bulk Apis 
 
 ### Batch Allocations

@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Tableau Products
 Tableau is a tool that drive intelligent predictions and recommendations across your analytics to power data-driven action.
 

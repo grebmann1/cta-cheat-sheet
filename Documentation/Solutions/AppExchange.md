@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # AppExchange
 
 App Exchange can be used to provide simple and easy to configure to solutions to business challenges.

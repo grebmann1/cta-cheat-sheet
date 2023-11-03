@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # E-Signature
 
 WARNING - Self made e-signature solution **aren't legit** !

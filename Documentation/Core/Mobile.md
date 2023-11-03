@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Mobile Solutions
 In the modern world, more & more company are using mobile app to interact with their clients and/or customers.
 

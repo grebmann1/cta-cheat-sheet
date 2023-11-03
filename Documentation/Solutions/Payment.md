@@ -1,4 +1,4 @@
-[Home](../../README.md)
+[Table of contents](../Documentation.md)
 # Payment Gateway
 
 Payment gateway are often used to provide a smoothless user experience related to payment as there is multiple payments methods availables worldwide.
