@@ -27,8 +27,8 @@ Salesforce Marketing Cloud is a marketing automation platform that is used for:
 
 - `Email marketing`.
 - Content creation and management (emails, landing page templates, forms, images, coupons).
-- `SMS` sending and monitoring.
-- `Mobile push notifications`, including in-app notifications.
+- `SMS` sending and monitoring. (**Marketing Cloud MobileConnect**)
+- `Mobile push notifications`, including in-app notifications. (**Marketing Cloud MobilePush**)
 - Social media marketing: schedule and monitor posts, and take advantage of real-time engagement, and rich analytics.
 - Visually map out campaign automation, bringing multiple channels into one view.
 - Targeted online advertising: find lookalike audiences that behave like your current high-value customers.

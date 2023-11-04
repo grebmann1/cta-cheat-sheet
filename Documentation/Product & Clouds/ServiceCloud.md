@@ -40,7 +40,7 @@
 |Sandbox|Self explenatory|✅ |✅ 
 |Feedback Management|Improve customer experiences by capturing contextual feedback to deliver superior service [link](https://www.salesforce.com/editions-pricing/platform/feedback-management/)|$ |✅ 
 |Service Cloud Voice|Connect with customers with call centre integration built directly into your CRM. Provide personalised service in every phone call with easy-to-use Service Cloud Voice. Real-time call transcription (with Amazon) [link](https://www.salesforce.com/eu/products/call-center-integration/)|$ |✅ 
-|Digital Engagement| Reach customers across every digital channel — including mobile messaging, web chat, and more — to provide a seamless service experience all on the #1 platform for service. (Messenger, Whatsapp, SMS and Chatbot) [link](https://www.salesforce.com/editions-pricing/service-cloud/digital-engagement/)|$ |✅ 
+|Digital Engagement| Reach customers across every digital channel — including mobile messaging, web chat, and more — to provide a seamless service experience all on the #1 platform for service. (Messenger, Whatsapp, SMS and Chatbot) `1k SMS included` [link](https://www.salesforce.com/editions-pricing/service-cloud/digital-engagement/) |$ |✅ 
 
 ## Data Model
 ### Overview

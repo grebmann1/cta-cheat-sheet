@@ -20,9 +20,9 @@
     * Contracts
     * Sales Order
     * Products and price books
-    * `Quotes`
-* `Omni-channel only available for leads, order and any custom object with no parent object`.
-    * Available with **Sales Engagement** add-on (included in Performance and Unlimited edition)
+    * Quotes
+* Omni-channel only available for leads, order and any custom object with no parent object.
+    * `Available with Sales Engagement add-on (included in Performance and Unlimited edition)`
 * Forecasting
     * Territory management
     * Opportunity Split
