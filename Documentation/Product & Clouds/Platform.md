@@ -5,6 +5,8 @@ Platform is mainly use to take advangate of the Salesforce platform without usin
 There is 2 differents user licenses.
 |Features| Platform Starter | Platform Plus|
 |--|--|--|
+|Accounts & Contacts|✅|✅|
+|Knowledge|read-only|read-only|
 |Custom Objects| 10 | 110|
 
 ## Features

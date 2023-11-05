@@ -51,3 +51,4 @@ To solve business requirements, existing applications/packages can be directly i
 - Guidelines
 - Artefacts
 - Presentation
+- Common Pattern
