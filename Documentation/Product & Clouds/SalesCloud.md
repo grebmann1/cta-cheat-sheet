@@ -1,6 +1,5 @@
 [Table of contents](../Documentation.md)
 # Sales Cloud  
-## Licenses
 ## Features
 ### What features are included ?
 * Account & Contact Management
@@ -37,6 +36,7 @@
 * Einstein Conversation Insights
 * Mobile Publisher for Experience Cloud
 * Sales & Service cloud bundle
+* Sales Engagement
 
 
 # Documentation

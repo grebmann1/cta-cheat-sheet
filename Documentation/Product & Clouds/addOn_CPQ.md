@@ -29,6 +29,8 @@ For External users, there is extra licenses:
 ![Product Bundle](../../Images/CTA%20-%20Diagrams%20-%20CPQ%20-%20Pricing.png)
 ### Order Model
 ![Order](../../Images/CTA%20-%20Diagrams%20-%20CPQ%20-%20Order.png)
+### Subscription Model
+![Subscription](../../Images/CTA%20-%20Diagrams%20-%20CPQ%20-%20Subscription.png)
 
 ## Features
 1. Configure Products

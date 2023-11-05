@@ -1,7 +1,5 @@
 [Table of contents](../Documentation.md)
 # Service Cloud  
-## Licenses
-
 ## Features
 ### What features are included ?
 
