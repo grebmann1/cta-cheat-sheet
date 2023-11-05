@@ -51,4 +51,5 @@ To solve business requirements, existing applications/packages can be directly i
 - Guidelines
 - Artefacts
 - Presentation
-- Common Pattern
+- [Data Migration](./Solving%20the%20scenario/DataMigration.md)
+- [Common Pattern](./Solving%20the%20scenario/CommonPattern.md)
