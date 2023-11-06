@@ -16,11 +16,11 @@
     * Basic case routing (Group or agent)
     * Knowledge (read only)
 * Basic Quote & Orders
-    * Contracts
+    * `Contracts`
     * Sales Order
     * Products and price books
-    * Quotes
-* Omni-channel only available for leads, order and any custom object with no parent object.
+    * `Quotes`
+* `Omni-channel` only available for leads, order and any custom object with no parent object.
     * `Available with Sales Engagement add-on (included in Performance and Unlimited edition)`
 * Forecasting
     * Territory management

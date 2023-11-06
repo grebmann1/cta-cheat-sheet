@@ -8,7 +8,7 @@ In Bulk API 2.0, batches are created for you automatically. In Bulk API, you mus
 
 ### Bulk API 1.0 vs 2.0
 - 2.0 support autmatic retry of failed records
-- 2.0 Support parallel processing
+- `2.0 Support parallel processing` (Best way to justify 2.0)
 
 ### General Limits
 | Item | Bulk API Limit| Bulk API 2.0 Limit|

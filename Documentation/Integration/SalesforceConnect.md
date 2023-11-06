@@ -1,7 +1,7 @@
 [Table of contents](../Documentation.md) / [Integration](Integration.md)
 # Integration - Salesforce Connect 
 
-### When to use Salesforce Connect ?
+## When to use Salesforce Connect ?
 
  1. Real time access of data existing in another system without importing the data
  2. Data shouldn't be stored in Salesforce but Real time synchronization.
@@ -13,7 +13,7 @@
  3. Flow & Process Builder (No Approval process)
  4. Quick Actions (No Task Creation)
 
-### External Objects
+## External Objects
 External Object (__x) are representing the objects that are virtualized using the OData protocol. These objects can be linked with : 
 - External Lookup Relationship
     - Standard/Custom &rarr;  External Object
@@ -21,7 +21,7 @@ External Object (__x) are representing the objects that are virtualized using th
 - Indirect Lookup Relationship (The external object is the child)
     - External Object &rarr; Standard/Custom Object
 
-### High Data Volume Considerations
+## High Data Volume Considerations
 If your org hits rate limits when accessing external objects, consider selecting the High Data Volume option on the associated external data sources. Doing so bypasses most rate limits, but some special behaviors and limitations apply.
 
 These features aren't available anymore:
@@ -33,13 +33,13 @@ These features aren't available anymore:
  - Report and Dashboard
  - Salesforce Id assignment
 
-### Sharing
+## Sharing
 It's currently not possible to control the sharing of External objects. There is currently only a few way to provide some kind of visibility control:
 1. Use LWC with Apex Controller to provie access to the user (Visibility controlled in Apex).
 2. `Sharing/visibility controlled on the server side` (User context parameter can be provided when configuring the Named Credential).
-3. Restriction Rules ([more details](https://help.salesforce.com/s/articleView?id=release-notes.rn_forcecom_sharing_restriction_rules_external_objects.htm&release=238&type=5)).
+3. Restriction Rules ([more details](https://help.salesforce.com/s/articleView?id=release-notes.rn_forcecom_sharing_restriction_rules_external_objects.htm&release=238&type=5)). [Max 5 / Objects]
 
-#### Salesforce Connect Adapters
+### Salesforce Connect Adapters
 These adapter are available for Salesforce Connect
 
 | Adapter | Description | When to use |
@@ -51,13 +51,13 @@ These adapter are available for Salesforce Connect
 |Salesforce Connect Adapter for Amazon Athena| Takes advantage of Amazon Athena’s capability to run queries against data directly in Amazon Simple Storage Service (S3) without having to manage RDBMS infrastructure or ETL tools.|To integrate AWS data natively with Salesforce and run interactive on demand queries.
 |Salesforce Connect Adapter for GraphQL |Uses GraphQL APIs to provide a modern way to integrate applications.|To access and integrate data from external sources that expose their capabilities via GraphQL.
 
-#### Salesforce Connect Adapters Included per Add-On License
+### Salesforce Connect Adapters Included per Add-On License
 | Adapter | Number of Connections | Comments
 |--|--|--|
 |Cross-org| 5
 |Others| 1
 
-#### Limitations & Allocations for Salesforce Connect 
+### Limitations & Allocations for Salesforce Connect 
 | Description | Unlimited, Enterprise & Performance | Comment |
 |--|--|--|
 | Maximum external objects per org.| `200` |  **[Hard Limit]**
@@ -65,7 +65,7 @@ These adapter are available for Salesforce Connect
 | Maximum new rows retrieved or created per hour.| `100k` | This limit doesn’t apply to: High-data-volume external data sources,Rows that are retrieved only as search results and aren’t opened or edited, Other rows that have already been retrieved
 |Maximum page size for server-driven paging. | 2k rows 
 
-#### Callout Limits for Salesforce Connect Adapters
+### Callout Limits for Salesforce Connect Adapters
 | Description | Unlimited, Enterprise & Performance | Comment |
 |--|--|--|
 |Cross-org adapter | No callout limits |API Usage limit apply on the provider org.
@@ -75,7 +75,10 @@ These adapter are available for Salesforce Connect
 | Amazon DynamoDN, Amazon Athena| No callout limits
 | GraphQL | No callout limits
 
+## External Change Data Capture
+It's possible to enabled `External Change Data Capture` to track changes that happened outside of salesforce (5-30 minutes delay) and interact with an Apex or Flow event triggered.
 
-### Documentation
+
+## Documentation
 
 1. [Access External Data With Salesforce Connect](https://help.salesforce.com/s/articleView?id=sf.salesforce_connect.htm&type=5)

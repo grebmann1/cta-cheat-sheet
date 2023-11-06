@@ -23,7 +23,7 @@ These limits and allocations apply to Salesforce **Platform SOAP** and **REST AP
 |--|--|
 | Developer Org | 15k|
 | Full Sandbox | 5M (created without template) |
-| All Editions | 100k + (number of licenses x calls per license type) + purchased API Call Add-Ons
+| All Editions | `100k + (number of licenses x calls per license type) + purchased API Call Add-Ons`
 
 ### Documentation
 

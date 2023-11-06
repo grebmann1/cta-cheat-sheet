@@ -21,3 +21,5 @@ If there is more records, it's better to consider `Apex Batch` or an `ETL Proces
  
 - Max Scheduled Path triggered flow in 24h:  250k OR number of user licenses x 200
 - Paused Flow: 50k
+
+It's possible to increase the limits by buying an `Flow Entitlement Add-on`.

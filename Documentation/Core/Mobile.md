@@ -21,7 +21,7 @@ Use Mobile Publisher to create a customized and branded Experience Cloud mobile 
 A `Salesforce Mobile Publisher` license is required to be able to publish the app.
 
 ### Limitation
-Offline capabilities are limited. In case there is a need for offline capabilities, it's better to consider an hybrid solution using the salesforce mobile SDK.
+Offline capabilities are limited. In case there is a need for offline capabilities, it's better to consider an hybrid solution using the salesforce mobile SDK as for the LWC offline capabilities are limited and/or in beta.
 
 # Mobile SDK (Recommended)
 

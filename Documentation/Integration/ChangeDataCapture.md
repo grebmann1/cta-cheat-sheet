@@ -11,7 +11,7 @@ Custom Channels are used to groups events together and to filter events to provi
 [Custom Channels  are only configurable with **Metadata API**]
 
 ### Enriched Fields
-Enriched fields are used to include "Extra Field" in the events that are published. 
+`Enriched fields are used to include "Extra Field"` in the events that are published. 
 For CDC, enriched fields are available for "Update" and "Delete". There is up to 10 enriched fields that can be included by channel members. (For a custom channel including Account and Contact, this would mean 2x 10 enriched fields).
 [Enriched fields are only configurable with **Metadata API**]
 
@@ -27,7 +27,7 @@ Before delivering a platform event message to a subscribed client, the event pay
 
 
 ### Data Life
-Events are stored in the event bus for `3 days (72h)`. Each event contain a "ReplayId" field that can be use to retrieve the event.
+Events are stored in the event bus for `3 days (72h)`. `Each event contain a "ReplayId" field that can be use to retrieve the event`.
 
 #### Limitations & Allocations
 | Description | Enterprise  | Unlimited |

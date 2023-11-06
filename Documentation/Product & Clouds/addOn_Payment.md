@@ -11,6 +11,5 @@ With Salesforce Payment, you can :
 ![Data Model](../../Images/CTA%20-%20Diagrams%20-%20Payment%20-%20Data%20model.png)
 
 ## Limitations
-Salesforce Payments isn’t available to customers contracting with Salesforce and based in 
-`Brazil, Ireland, India, and Japan`.\
+Salesforce Payments isn’t available to customers contracting with Salesforce and based in `Brazil, Ireland, India, and Japan`.\
 However, merchants contracting with Salesforce outside of these countries can set up Salesforce Payments Stripe accounts.

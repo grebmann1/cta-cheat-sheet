@@ -32,14 +32,16 @@ A user with a Partner Community license must be associated with a business accou
 | Opportunities |❌|❌|❌| ✅ | ✅ |
 | Leads|❌|❌|❌| ✅ | ✅ |
 | Events|❌|Read Only|✅| ✅ | ✅ |
-| Custom Objects*| 100| 10| 10| 10 | 10|
+| Custom Objects| 100| 10| 10| 10 | 10|
 | Send Email| ❌|❌| ✅| ✅ | ✅ |
 | Sharing Sets| ✅| ✅| ✅ | ✅ | ✅ |
 | Advanced Sharing Rules |❌|❌| ✅| ✅ | ✅ |
+| Omnichannel |❌|❌| ❌| ❌| ❌ |
 | Reports & Dashboards |❌|❌| Read Only| ✅ | ✅ | ✅ |
 | Territory Management|❌|❌|❌|✅|✅
 | Workflow Approvals	|❌|✅|✅|✅|✅
 | Extra Data Storage | 10MB | 0 | 2MB/1MB | 5MB/1MB | 5MB/1MB
+| Extra File Storage | 10MB | 0 | 2MB/1MB | 5MB/1MB | 5MB/1MB
 | API Calls per Day | 200/400 | 0 | 200/10 | 200/10 | 200/10
 
 [More details](https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&type=5)

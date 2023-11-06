@@ -7,10 +7,10 @@
 - Knowledge Lightning
     - Einstein Article Recommendation
 - Advanced Case Management
-    - Case email Auto response
-    - Web & Email case capture
+    - `Case email Auto response`
+    - `Web & Email case capture`
     - Case auto assignement
-    - Case escalation rules & queues
+    - `Case escalation rules & queues`
 - Service contracts & entitlements
 - `Omni-channel`
     - Skill Based, Queue Based and External routing.
@@ -71,6 +71,11 @@ Case auto-response rules are also available in the Essentials edition.
 Create as many response rules as you like based on any attribute of the incoming lead or case. Keep in mind that you can activate only one rule for leads and one rule for cases at a time. Your team can see the email responses in the Activity History related list for the lead or contact and in the Email related list on cases.
 
 Emails sent from case auto-response rules don’t count towards the daily limit for outbound email messages.
+
+### Entitlement & Milestones
+![Entitlement & Milestones](../../Images/CTA%20-%20Diagram%20-%20Service%20Cloud%20-%20Entitlement.png)
+
+Case Milestones can be auto-completed with a trigger record flow that close the CaseMilestone based on specific criterias.
 
 ### Escalation Rules
 Escalation rules automatically escalate cases when the case meets the criteria defined in the rule entry.\

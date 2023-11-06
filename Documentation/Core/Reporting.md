@@ -8,7 +8,7 @@
  - Joined (report blocks that provide differents view of your data)
 
 ### Report over Aggregate Data
-To display aggregated data, you can use a custom object to represent the incrementation.
+To display aggregated data, you can use a `custom object to represent the incrementation/summary`.
 If this solution isn't working, it's recommended to use "Tableau/CRM Analytics" and use a "Recipe".
 
 ### Display a Map

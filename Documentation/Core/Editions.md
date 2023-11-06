@@ -58,8 +58,8 @@
 | | Data Storage  |10GB + (20/user) | 10GB + (20MB/user) | `10GB + (120MB/user)`|
 | **Platform Events** | Maximum of CometId subscriber | 20 | 1K | 2k
 || Maximum number of custom channels (CDC not included) | 100 | 100 | 100
-|| Max Event Delivery (24h) | 10k | 25K | 50k
-|| Max Event Publishing (1h)| 250k | 250k |250k
-|| CDC Object Limits | 5 | 5 | 5 
+|| Max Event Delivery (24h) | 10k | 25K | `50k`
+|| Max Event Publishing (1h)| 250k | 250k |`250k`
+|| CDC Object Limits | 5 | 5 | `5`
 
 

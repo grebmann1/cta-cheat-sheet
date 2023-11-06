@@ -13,11 +13,27 @@
 
 ### Organization-Wide Default
 Organization-Wide Default (OWD) estalish the sharing baseline for all standard and custom objects in the Salesforce instance.
-The primary settings includes :
-- Controlled by Parent, Private, Public Read-Only, Public Read/Write
-- `Public Read/Write/Tranfer (Case & Leads)`
-- `Public Full Access, View Only (Campaign)`
-- `Use, View Only, No Access (Pricebook)`
+The primary OWD includes :
+- In general
+    - Public Read/Write/Tranfer
+    - Public Read/Write
+    - Public Read-Only
+    - Controlled by Parent
+    - Private
+- Case & Leads
+    - Public Read/Write/Tranfer
+    - Public Read/Write
+    - Public Read-Only
+    - Private 
+- Campaign
+    - Public Full Access
+    - Public Read/Write
+    - Public Read-Only
+    - Private
+- Pricebook
+    - Use
+    - View Only
+    - No Access
 
 `Accounts and Contracts are sharing the same OWD`.
 
@@ -39,3 +55,4 @@ Teams are a particular sharing process specifically for a limited set of Salesfo
 - `Account`
 - `Opportunity`
 - `Case`
+

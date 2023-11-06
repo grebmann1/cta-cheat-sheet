@@ -38,6 +38,7 @@ To solve business requirements, existing applications/packages can be directly i
 - [Bulk API Limits](./Limitations/BulkApis.md)
 - [Sharing Limits](./Limitations/SharingLimits.md)
 - [Reporting Limits](./Limitations/ReportingLimits.md)
+- [Feature Limits](./Limitations/FeatureLimits.md)
 ### Data & File Storage
 - [Data Storage](./Storage/DataStorage.md)
 - [File Storage](./Storage/FileStorage.md)

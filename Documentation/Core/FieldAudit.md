@@ -1,7 +1,7 @@
 [Table of contents](../Documentation.md)
 # Field Audit
 
-Field Audit is a standard functionallity that allow the administrator to set up to `20 fields to be tracked per objects` in Salesforce.
+Field Audit is a standard functionallity that allow the administrator to set up to `20 fields per objects to be tracked` in Salesforce.
 
 **Important:** Field history tracking data and Field Audit Trail data don’t count against your data storage limits.
 
@@ -24,7 +24,6 @@ These 2 parameters control the Data Retention Policy:
 - `Archive Retention for X years`
 
 ### License
-Salesforce Field Audit Trail is provided via an Org license for Enterprise and Unlimited edition.(No User license)\
-
-Salesforce Field Audit Trail is also included by default in the `Shield Bundle`
+Salesforce Field Audit Trail is provided via an Org license for Enterprise and Unlimited edition.(No User license).\
+It's included by default in the `Shield Bundle`
 
