@@ -13,7 +13,7 @@ With web to case, you can capture up to `5k cases in a 24h period`. If it's abov
 
 ## Platform
 ### General Email Limits
-Salesforce orgs can send single emails to a `maximum of 5k external email addresses per day`.\
+Salesforce orgs can send single emails to a `maximum of 5k external email addresses per day`.
 - Single emails sent using the email author or composer in Salesforce don't count towards this limit.
 - There’s no limit on sending single emails to contacts, leads, person accounts, and users in your organization directly from the Account, Contact, Lead, Opportunity, Case, Campaign, or custom object pages.
 

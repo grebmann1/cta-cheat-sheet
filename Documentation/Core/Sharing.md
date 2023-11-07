@@ -44,6 +44,10 @@ The primary OWD includes :
 - Person Account implies
     - Contact controlled by parents
     - Contact and Account Private
+- Account sharing rule and team sharing provide also control to :
+    - `Account & Contract access`
+    - `Case access`
+    - `Opportunity access`
 
 
 ### Role Hierarchy
@@ -55,4 +59,5 @@ Teams are a particular sharing process specifically for a limited set of Salesfo
 - `Account`
 - `Opportunity`
 - `Case`
+
 

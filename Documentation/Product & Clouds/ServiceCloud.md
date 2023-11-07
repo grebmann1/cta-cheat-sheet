@@ -94,3 +94,12 @@ Salesforce limits the number of rules, as well as the number of entries and acti
 | Formula criteria entries per rule       | 300    |
 | Filter criteria per rule entry          | 25     |
 | Actions allowed per rule                | 200    |
+
+## Solution for specific scenario
+
+### Turn Social Media Posts into Cases
+`Social Customer Service` automatically creates cases for social media mentions, posts, or direct messages from your company’s Facebook, Twitter, YouTube, and Instagram pages.
+
+Requirement: You need at least 1 Social Cloud license (Marketing cloud)
+
+(This will be retired end of 2024 !!!)

@@ -18,31 +18,34 @@ A user with a Partner Community license must be associated with a business accou
 ![Licenses](../../Images/ExperienceCloud_licence_1.png)
 
 ## Salesforce Features, Capability, and Custom Objects
-|Feature| External App| Customer Community | Customer Community Plus | Partner Community | Channel |
-|--|--|--|--|--|--|
-| Accounts| Read & Edit| Read & Edit| ✅ | ✅ | ✅ |
-| Contacts| ✅| ✅| ✅ | ✅ | ✅ |
-| Assets| ✅| ✅| ✅ | ✅ | ✅ |
-| Contracts | ✅| ✅| ✅ | ✅ | ✅ |
-| Cases|❌ | ✅| ✅ | ✅ |✅ |
-| Knowledge | ✅| ✅| ✅ | ✅ | ✅ |
-| Order | ✅| ✅| ✅ | ✅ | ✅ |
-| Product | Read Only| Read Only| Read Only | Read Only | Read Only |
-| Pricebook | Read Only| Read Only| Read Only| Read Only | Read Only |
-| Opportunities |❌|❌|❌| ✅ | ✅ |
-| Leads|❌|❌|❌| ✅ | ✅ |
-| Events|❌|Read Only|✅| ✅ | ✅ |
-| Custom Objects| 100| 10| 10| 10 | 10|
-| Send Email| ❌|❌| ✅| ✅ | ✅ |
-| Sharing Sets| ✅| ✅| ✅ | ✅ | ✅ |
-| Advanced Sharing Rules |❌|❌| ✅| ✅ | ✅ |
+|Feature| External App| Customer Community | Customer Community Plus | Partner Community | 
+|--|--|--|--|--|
+| Accounts| Read & Edit| Read & Edit| ✅ | ✅ |
+| Contacts| ✅| ✅| ✅ | ✅ | 
+| Assets| ✅| ✅| ✅ | ✅ | 
+| Contracts | ✅| ✅| ✅ | ✅ | 
+| Cases|❌ | ✅| ✅ | ✅ |
+| Knowledge | ✅| ✅| ✅ | ✅ | 
+| Order | ✅| ✅| ✅ | ✅ | 
+| Product | Read Only| Read Only| Read Only | Read Only | 
+| Pricebook | Read Only| Read Only| Read Only| Read Only | 
+| Opportunities |❌|❌|❌| ✅ | 
+| Leads|❌|❌|❌| ✅ | 
+| Calendar & Events|❌|Read Only|✅| ✅ | 
+| Service Contract| ✅| ❌| ✅ | ✅ | 
+| Work Order| ✅| ✅| ✅ | ✅ | 
+| Custom Objects| 100| 10| 10| 10 | 
+| Send Email| ❌|❌| ✅| ✅ |
+| Sharing Sets| ✅| ✅| ✅ | ✅ | 
+| Account Teams |❌|❌| ✅| ✅ | 
+| Advanced Sharing Rules | ✅|❌|❌| ✅ | 
 | Omnichannel |❌|❌| ❌| ❌| ❌ |
-| Reports & Dashboards |❌|❌| Read Only| ✅ | ✅ | ✅ |
-| Territory Management|❌|❌|❌|✅|✅
-| Workflow Approvals	|❌|✅|✅|✅|✅
-| Extra Data Storage | 10MB | 0 | 2MB/1MB | 5MB/1MB | 5MB/1MB
-| Extra File Storage | 10MB | 0 | 2MB/1MB | 5MB/1MB | 5MB/1MB
-| API Calls per Day | 200/400 | 0 | 200/10 | 200/10 | 200/10
+| Reports & Dashboards |❌|❌| Read Only| ✅ | ✅ | 
+| Territory Management|✅|❌|❌|✅|
+| Workflow Approvals|❌|✅|✅|✅|
+| Extra Data Storage | 10MB | 0 | 2MB/1MB | 5MB/1MB 
+| Extra File Storage | 10MB | 0 | 2MB/1MB | 5MB/1MB 
+| API Calls per Day | 200/400 | 0 | 200/10 | 200/10 
 
 [More details](https://help.salesforce.com/s/articleView?id=sf.users_license_types_communities.htm&type=5)
 ## Templates
