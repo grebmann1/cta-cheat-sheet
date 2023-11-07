@@ -34,3 +34,9 @@ Mobile SDK can be used with LWC and/or REACT to build an Hybrid app on top of Ex
 As an example, a customer app would include:
 - Experience Cloud (User access & management via API )
 - Mobile App with Salesforce Mobile SDK (Hybrid with LWC support)
+
+
+## Push Notification
+Push notification can be send directly from Salesforce via Flow and/or Apex.
+
+Marketing Cloud can also be used to interact with the customer by sending push notification.
