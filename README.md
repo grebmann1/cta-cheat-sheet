@@ -8,6 +8,6 @@ There will be no discussion about Software Architecture as CTA and Software arch
 ## How to contribute
 This document is open source and you can contribute to it by creating a pull request.
 
-## Document
+## Links
 
-[Go to table of content](./Documentation/Documentation.md)
+[go to SF Toolkit](https://sf-toolkit.com/)
