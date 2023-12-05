@@ -3,7 +3,7 @@
  - [Salesforce Editions](./Core/Editions.md)
  - [Sharing](./Core/Sharing.md)
  - [Flows](./Core/Flows.md)
- - [Mobile](Documention/Core/Mobile.md)
+ - [Mobile](./Core/Mobile.md)
  - [Field Audit](./Core/FieldAudit.md)
  - [Reporting](./Core/Reporting)
 
