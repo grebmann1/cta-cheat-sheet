@@ -5,7 +5,7 @@
  - [Flows](./Core/Flows.md)
  - [Mobile](./Core/Mobile.md)
  - [Field Audit](./Core/FieldAudit.md)
- - [Reporting](./Core/Reporting)
+ - [Reporting](./Core/Reporting.md)
 
 ### Clouds & Products
 #### Clouds
