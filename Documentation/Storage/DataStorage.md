@@ -1,7 +1,8 @@
-[Table of contents](../Documentation.md)
-# Data Storage 
+[Table of Contents](../Documentation.md)
 
-## Data Storage include these objects:
+# Data Storage
+
+## Data Storage includes the following objects:
 
 - Accounts
 - Campaigns
@@ -30,15 +31,13 @@
 - Tasks
 - All objects tied to Field Service enablement 
 
-Note: 
-`Asset`, `Product` and `Pricebook` don't count against storage calculation.
+Note: `Asset`, `Product`, and `Pricebook` do not count against storage calculation.
 
 ## Data Storage Allocation
 
-All orgs are allocated 10GB for data storage by default
+All orgs are allocated 10GB for data storage by default.
 
 Data storage = `10GB + number of licenses * license allocations`
-
 
 ## Data Storage by Salesforce Edition
 

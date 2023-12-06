@@ -1,8 +1,10 @@
 # Platform
-Platform is mainly use to take advangate of the Salesforce platform without using the core features provided by Sales/Service clouds.
+
+Platform is mainly used to take advantage of the Salesforce platform without using the core features provided by Sales/Service clouds.
 
 ## Licenses
-There is 2 differents user licenses.
+There are 2 different user licenses.
+
 |Features| Platform Starter | Platform Plus|
 |--|--|--|
 |Accounts & Contacts|✅|✅|
@@ -15,7 +17,7 @@ There is 2 differents user licenses.
 - Process Automation
     - Workflow and Approval
 - Access to App Exchange
-- Identiy for Employees (SSO)
+- Identity for Employees (SSO)
 - Chatter
 - Integration
     - Platform Events
@@ -26,5 +28,5 @@ There is 2 differents user licenses.
 - Core Salesforce
     - Account and Contacts
     - Knowledge (read-only)
-    - Customisable Reports and Dashboards
+    - Customizable Reports and Dashboards
     - Task Management and Activity feed

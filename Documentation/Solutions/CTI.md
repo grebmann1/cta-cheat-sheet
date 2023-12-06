@@ -1,58 +1,60 @@
 [Table of contents](../Documentation.md)
-# CTI Solutions
-When you want to integrate a telephony system with Salesforce you need to use a CTI solution.
-There is multiple CTI solution available in App Exchange but they are mainly specific to certain telephony providers.
 
-The best practice is to first look for a solution matching your telephony system in App Exchange before building something custom with Open CTI.
+# CTI Solutions
+
+Integrating a telephony system with Salesforce requires using a CTI (Computer Telephony Integration) solution. AppExchange hosts several CTI solutions, typically specific to certain telephony providers.
+
+Best practice suggests exploring AppExchange for a solution that matches your telephony system before considering custom development with Open CTI.
 
 ## Salesforce Terminologies
-| Term | Description|
-|--|--|
-| Softphone| An on-screen phone for making and receiving calls.|
-| Call Center| A Salesforce feature that integrates with call systems developed by partners or developers.|
-| Open CTI| A JavaScript API for building cloud-based call systems to be used with Salesforce's Call Center. Open CTI is browser and platform agnostic, allowing support agents to make calls on a variety of browsers and platforms, such as Microsoft Internet Explorer, Mozilla Firefox, Apple Safari, or Google Chrome on Mac, Linux, or Windows, providing flexibility and choice for support agents.|
 
-
+| Term       | Description                                                                                   |
+|------------|-----------------------------------------------------------------------------------------------|
+| Softphone  | An on-screen phone for making and receiving calls.                                             |
+| Call Center| A Salesforce feature integrating with call systems developed by partners or developers.       |
+| Open CTI   | A JavaScript API for building cloud-based call systems used with Salesforce's Call Center.    |
 
 ![Open CTI](../../Images/CTI-1.png)
 
+### Resources
 
 1. [Open CTI Documentation](https://developer.salesforce.com/docs/atlas.en-us.api_cti.meta/api_cti/sforce_api_cti_intro.htm)
 
-## Key Features of OPEN CTI
-- Receive Call
-- Make Call
-- Search and pop records in softphone layout
-- Save Salesforce records
-- Execute Apex
+## Key Features of Open CTI
+
+- Receiving and making calls
+- Searching and displaying records in the softphone layout
+- Saving Salesforce records
+- Executing Apex
 
 ## Integration
- - Javascript Library 
-    - Visualforce or any other web technology (LWC not supported yet except for click-to-dial for making a call)
- - Lightning message
- 
+
+- JavaScript Library
+    - Compatible with Visualforce or any other web technology (LWC is not yet fully supported, except for click-to-dial)
+- Lightning message
+
 ### Softphone
-A softphone is a customizable call-control tool that appears to users assigned to a call center. A softphone's functionality and user interface are determined by the Salesforce admin.
-Softphone is integrated in Salesforce via an IFrame. The softphone is provided by the Telephony system and configured in Salesforce under : **Call Centers**
 
-
+A softphone is a customizable call-control tool available to users assigned to a call center. Its functionality and user interface are configured by Salesforce admins.
+The softphone integrates with Salesforce via an IFrame and is provided by the Telephony system, configured in Salesforce under **Call Centers**.
 
 ## Licenses
-1. Open CTI (Available without Extra)
-2. Sales Dialer (Sales & Service cloud with an **Extra Add-on license**)
-    - ❌ Only work to the US and Canada ❌
+
+1. Open CTI (Available without extra cost)
+2. Sales Dialer (Sales & Service cloud with an **extra add-on license**)
+    - ❌ Limited to the US and Canada ❌
 
 ## List of Solutions (Sample)
-This is a non exhaustive list of solutions availables in App Exchange
 
-1. **AirCall CTI** (To Recommend if there is no specific telephony System)
-    - Web softphone (available on mobile via an App)
-    - Monitor and listen to agents (live) and  measure KPIs
-    - Connect to other system (Help Desk, etc)
-    - Send SMS
+This is a non-exhaustive list of solutions available on AppExchange:
+
+1. **AirCall CTI**
+    - Web-based softphone (also available on mobile via an app)
+    - Monitoring and listening to live agents, measuring KPIs
+    - Integration with other systems (Help Desk, etc.)
+    - SMS capabilities
     - [App Exchange Link](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000EFnzwUAD)
-
 
 ## Documentation
 
-1. [Trailhead](https://trailhead.salesforce.com/content/learn/modules/service_call)
+1. [Trailhead - Service Cloud Call Center Basics](https://trailhead.salesforce.com/content/learn/modules/service_call)

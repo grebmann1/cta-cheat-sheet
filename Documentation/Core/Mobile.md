@@ -1,42 +1,46 @@
-[Table of contents](../Documentation.md)
-# Mobile Solutions
-In the modern world, more & more company are using mobile app to interact with their clients and/or customers.
+[Table of Contents](../Documentation.md)
 
-Salesforce propose 3 solutions:
+# Mobile Solutions
+
+In today's modern world, an increasing number of companies are utilizing mobile apps to engage with their clients and customers effectively.
+
+Salesforce offers three solutions:
 - Salesforce Mobile App
 - Mobile Publisher
-- Mobile SDK (in combo with Native or Hybrid solution)
+- Mobile SDK (in combination with Native or Hybrid solutions)
 
-# Salesforce Mobile App
-The Salesforce mobile app is Salesforce on the go!\
-This enterprise mobile experience gives you access to the same information you see in the office, but organized for getting work done between customer meetings, while waiting for a flight, even when you’re in line for coffee.
+## Salesforce Mobile App
 
-Salesforce Mobile App is supporting `Offline Capabilities`.
+The Salesforce mobile app is your Salesforce platform on the go! This enterprise mobile experience provides access to the same information available in the office, conveniently organized for productivity during customer meetings, while traveling, or even while waiting in line for coffee.
 
-# Mobile Publisher
+The Salesforce Mobile App supports `Offline Capabilities`.
 
-Use Mobile Publisher to create a customized and branded Experience Cloud mobile app. When your users can identify the app with your brand, they’re more likely to use it, which increases adoption.
+## Mobile Publisher
+
+Utilize Mobile Publisher to create a customized and branded Experience Cloud mobile app. When your users can associate the app with your brand, they are more likely to use it, leading to increased adoption.
 
 ### Licenses
-A `Salesforce Mobile Publisher` license is required to be able to publish the app.
 
-### Limitation
-Offline capabilities are limited. In case there is a need for offline capabilities, it's better to consider an hybrid solution using the salesforce mobile SDK as for the LWC offline capabilities are limited and/or in beta.
+A `Salesforce Mobile Publisher` license is required to publish the app.
 
-# Mobile SDK (Recommended)
+### Limitations
 
-With mobile SDK, you can interact with Salesforce data directly from your mobile and take advantages of key functionnalities such as : 
-- `Offline Capabitilies`
+Offline capabilities are restricted. For comprehensive offline capabilities, it's advisable to consider a hybrid solution using the Salesforce Mobile SDK as offline capabilities with LWC (Lightning Web Components) are limited and/or in beta.
+
+## Mobile SDK (Recommended)
+
+With the Mobile SDK, you can directly interact with Salesforce data from your mobile device and leverage key functionalities such as:
+- `Offline Capabilities`
 - Push notifications
 
-Mobile SDK can be used with LWC and/or REACT to build an Hybrid app on top of Experience Cloud (To manage the users)
+The Mobile SDK can be used with LWC and/or REACT to build a Hybrid app on top of Experience Cloud (for user management).
 
-As an example, a customer app would include:
-- Experience Cloud (User access & management via API )
+For instance, a customer app might include:
+- Experience Cloud (User access & management via API)
 - Mobile App with Salesforce Mobile SDK (Hybrid with LWC support)
 
+### Push Notifications
 
-## Push Notification
-Push notification can be send directly from Salesforce via Flow and/or Apex.
+Push notifications can be sent directly from Salesforce via Flow and/or Apex.
 
-Marketing Cloud can also be used to interact with the customer by sending push notification.
+Additionally, Marketing Cloud can be used to engage with customers by sending push notifications.

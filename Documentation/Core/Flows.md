@@ -1,25 +1,22 @@
-[Table of contents](../Documentation.md)
+[Table of Contents](../Documentation.md)
+
 # Flows
 
-## Differents type of Flows available
+## Different Types of Flows Available
 - Screen Flow
 - Triggered Flow
-    - Record - Triggered Flow
-    - Scheduled - Triggered Flow
-    - Platform Event - Triggered Flow
+    - Record-Triggered Flow
+    - Scheduled-Triggered Flow
+    - Platform Event-Triggered Flow
 - Scheduled Path Flow
 - Paused Flow
 
-
-## Flows consideration
+## Flow Considerations
 ### Scheduled Flow
-When doing a "Scheduled Flow" to run a batch, there is a limitation of rows that can be retrieved per day: `250k` OR `number of user licenses x 200`.
-If there is more records, it's better to consider `Apex Batch` or an `ETL Process`.
-
+When implementing a "Scheduled Flow" to run a batch, there is a limitation on the number of rows that can be retrieved per day: `250k` OR `number of user licenses x 200`. If there are more records, it's advisable to consider using `Apex Batch` or an `ETL Process`.
 
 ## General Flow Limitations
- 
-- Max Scheduled Path triggered flow in 24h:  250k OR number of user licenses x 200
+- Maximum Scheduled Path triggered flows in 24 hours: 250k OR number of user licenses x 200
 - Paused Flow: 50k
 
-It's possible to increase the limits by buying an `Flow Entitlement Add-on`.
+It is possible to increase these limits by purchasing a `Flow Entitlement Add-on`.

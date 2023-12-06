@@ -1,4 +1,5 @@
-[Table of contents](../Documentation.md)
+[Table of Contents](../Documentation.md)
+
 # File Storage 
 
 ## File Storage Allocation
@@ -7,18 +8,16 @@ All orgs are allocated `10GB for file storage by default.`
 
 File storage = `10GB + number of licenses * license allocations + Extra add-ons`
 
-
 ## File Limitations
-Files size are limited to 2GB.
-Files that are attached to articles in Lightning Knowledge : 5MB
-Files can only be shared 2K times.
-File connect can be used to use file from Google Drive, Dropbox, etc
+- File size limit: 2GB
+- Files attached to articles in Lightning Knowledge: 5MB
+- Files can only be shared 2K times.
+- File Connect allows file usage from Google Drive, Dropbox, etc.
 
-## When to look for an external Solution ?
+## When to Consider an External Solution?
 - Streaming video.
 - Very large files (more than 2GB).
 - Files already available in an external tool.
-
 
 ## File Storage by Salesforce Edition
 
@@ -30,37 +29,29 @@ File connect can be used to use file from Google Drive, Dropbox, etc
 | Unlimited     | `10 GB`  | `2GB`
 | Developer     | 20 MB   | N/A
 
-
 ## File Connect (External Data Storage)
 With Files Connect, Salesforce users can access, share, and search external data from systems like `Quip`, `Google Drive`, `SharePoint`, or `Box`.
-
-Be aware, File Connect isn't made to replace "Attachement", it's only to access Personnal files and share it.
-
+File Connect is not meant to replace "Attachments"; it's for accessing personal files and sharing them.
 
 ## External Data Storage with App Exchange
 
 ### List of Solutions (Sample)
-This is a non exhaustive list of solutions available in App Exchange.
+This is a non-exhaustive list of solutions available in App Exchange.
 - S-Drive `Recommended`
 - CloudFiles
 - S3-link | Amazon Connector
 
-
-
-
 ## S-Drive (Recommended Solution)
- External tool available in App Exchange
+External tool available in App Exchange.
 
 ### Storage
- S-Drive is using Amazon S3 to store the data.
+S-Drive utilizes Amazon S3 for data storage.
 
 ### Key Features
- - File management, Microsoft format editor
- - E-Signature with DocuSign
- - Tooling API for migration
- - Salesforce Sharing model
+- File management, Microsoft format editor
+- E-Signature with DocuSign
+- Tooling API for migration
+- Salesforce Sharing model
 
 ### Migration
- Migration can be done using their tooling API to migrate the files in Amazon S3 and link them to Salesforce records.
-
-
+Migration can be performed using their tooling API to migrate files in Amazon S3 and link them to Salesforce records.

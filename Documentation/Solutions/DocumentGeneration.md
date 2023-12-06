@@ -1,34 +1,39 @@
 [Table of contents](../Documentation.md)
+
 # Document Generation
 
-It's important to consider an external solution to improve the user experience. Basic email template is Salesforce are good for simple emails.
+Enhancing the user experience often necessitates considering an external solution. While basic email templates in Salesforce suffice for simple emails, more comprehensive solutions can significantly improve document generation processes.
 
 ## Conga Composer
-Conga is currently the leader for document generation in Salesforce with their product Conga Composer. (They also support e-signature).
+
+Conga Composer stands as the leading document generation tool within Salesforce, offering robust document generation capabilities and supporting e-signatures.
+
 1. [Conga Composer Website](https://conga.com/products/conga-composer)
 2. [Conga Composer Documentation](https://documentation.conga.com/composer/october-23/salesforce/conga-composer-193694433.html)
 
-#### Features
-- Create easily documents in different formats (Word, Excel, Pdf, etc)
-- Documents can be directly stored in Salesforce or externaly (AWS, Google, etc)
-- Templating directly from (Word, Excel, etc)
-- Delivery method includes
-    - Send Email, Printing
-    - Save as Note & Attachments
-    - Conga Sign, Docusign, Adobe Signature, Conga Contracts
-- Extension
+### Key Features
+
+- Effortlessly create documents in various formats (Word, Excel, PDF, etc.).
+- Directly store documents in Salesforce or external platforms (AWS, Google, etc.).
+- Use templates from applications like Word and Excel.
+- Delivery options include:
+    - Sending emails and printing
+    - Saving as Note & Attachments
+    - Using eSignature tools like Conga Sign, Docusign, Adobe Signature, and Conga Contracts
+- Extensions available:
     - eSignature
     - Conga Trigger
     - Conga Batch
 
-#### Integration
- - Files are created in Conga servers using REST API
- - Files and Templates are stored in Salesforce as Custom objects
- - Salesforce Mobile App Supported (with a Conga Connected App)
- - Document created can be launched from 
+### Integration
+
+- Files are generated on Conga servers using REST API.
+- Files and Templates are stored in Salesforce as Custom objects.
+- Supported in the Salesforce Mobile App (requires a Conga Connected App).
+- Documents can be created from:
     - Conga Composer Button (using formula)
     - Flow (Add-on with Conga Trigger)
-    - Apex (Using Conga API)
- - Custom Objects are used to represent the solution
-    - Conga Email Template (To store the email template)
-    - Conga Query Manager (To store the queries for the document generation)
+    - Apex (using Conga API)
+- Custom Objects used in the solution include:
+    - Conga Email Template (to store email templates)
+    - Conga Query Manager (to store queries for document generation)

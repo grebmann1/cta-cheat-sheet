@@ -1,37 +1,38 @@
 [Table of contents](../Documentation.md)
+
 # Salesforce Shield
-Shield Platform Encryption builds on the data encryption options that Salesforce offers out of the box. Data stored in many standard and custom fields and in files and attachments is encrypted using an advanced HSM-based key derivation system. So it’s protected even when other lines of defense are compromised.
+
+Shield Platform Encryption enhances the data encryption options provided by Salesforce. It encrypts data stored in many standard and custom fields, files, and attachments using an advanced HSM-based key derivation system, ensuring protection even when other lines of defense are compromised.
 
 ## Licenses
-Salesforce Shield is provided is provided via an Org License. (No User license)
+Salesforce Shield is provided via an Org License (No User license).
 
 ## Encryption Key
-You can use differents key (RSA) to encrypt your data:
+Different RSA keys can be used to encrypt data:
 - Salesforce Generated Key
-- `Bring your own Key (BYOK)`
+- Bring Your Own Key (BYOK)
 
-The BYOK provide a `Cache-Only Key Service` that fetch your key and encrypt on demand without storing the key on Salesforce to avoid any risk.
+BYOK provides a Cache-Only Key Service that fetches your key and encrypts data on demand without storing the key on Salesforce to mitigate any risks.
 
 ## Field Encryption Details
 
 ### Encryption Types
-Salesforce provide different encryption type for each fields and this might impact the way formula, Workflow rules, Duplication rules, etc interact with the data.
-- Deterministic Encryption  (✅ Support most cases)
-- Probalistic Encryption (❌ limited support)
+Salesforce offers different encryption types for each field, impacting interactions with data in formulas, Workflow rules, Duplication rules, etc:
+- Deterministic Encryption (✅ Supports most cases)
+- Probabilistic Encryption (❌ Limited support)
 
 #### Formula
-Encrypted fields are accessible in Formula field so formula fields are still working (With certain [exceptions](https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/security_pe_formulas.htm))
+Encrypted fields remain accessible in Formula fields; however, there are certain [exceptions](https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/security_pe_formulas.htm) to consider.
 
-## Tradeoffs & Limitations
+## Trade-offs & Limitations
 
 ### Formula, Workflow, Duplicate rules, etc
-Salesforce provide different encryption type for each fields and this might impact the way formula, Workflow rules, Duplication rules, etc interact with the data.
-- `Deterministic Encryption`  (✅ Support most cases)
-- Probalistic Encryption (❌ limited support)
+Different encryption types for fields may affect interactions with data in Formula, Workflow rules, Duplication rules, etc:
+- Deterministic Encryption (✅ Supports most cases)
+- Probabilistic Encryption (❌ Limited support)
 
-### App Exchange 
-App Exchange app need to be evaluated to garanty that the functionalities are still working as expected after the installation of Salesforce Shield.
-
+### App Exchange
+App Exchange apps need evaluation to ensure their functionalities remain intact after the installation of Salesforce Shield.
 
 ## Links
 [Documentation](https://developer.salesforce.com/docs/atlas.en-us.securityImplGuide.meta/securityImplGuide/security_pe_overview.htm)

@@ -1,36 +1,35 @@
 # Platform
-Organize and unify data across Salesforce and other external data sources. After data has been ingested into Data Cloud, it can be used to drive personalization and engagement through the creation of audience segments. Additionally, through identity resolution you can achieve a single, actionable view of your customer built on the world’s #1 customer platform.
 
-With Data Cloud you can:
+The Platform allows the organization and unification of data across Salesforce and external sources, enabling personalization and engagement through audience segment creation and identity resolution.
 
-- Create unified customer profiles across all touchpoints by connecting identities, engagement data, customer orders, loyalty, and marketing journeys.
-- Build smarter audience segments using insights and filtering capabilities.
-- Activate data from anywhere across your organization.
-- Capture and unify data from anywhere with a high-scale data ingestion service.
-- Analyze your data using tools like Tableau or Marketing Cloud Intelligence.
+## Features of Data Cloud
+
+- Creation of unified customer profiles by connecting various touchpoint data, such as identities, engagement data, orders, loyalty, and marketing journeys.
+- Building smarter audience segments using insights and filtering capabilities.
+- Activation of data from various parts of the organization.
+- Capturing and unifying high-scale data ingestion from diverse sources.
+- Analyzing data using tools like Tableau or Marketing Cloud Intelligence.
 
 ## Licenses
 
-With the Enterprise and Unlimited edition, customer are receiving some free data clouds licenses :
-|Allocation|Enterprise|Unlimited|Unlimited Plus|
-|--|--|--|--|
-| Data Service Credits | 250k| 250k| 2.5M|
-| Storage | 1TB | 1TB | 1TB|
+For Enterprise and Unlimited editions, customers receive free Data Cloud licenses with specific allocations:
+| Allocation            | Enterprise | Unlimited | Unlimited Plus |
+|-----------------------|------------|-----------|----------------|
+| Data Service Credits  | 250k       | 250k      | 2.5M           |
+| Storage               | 1TB        | 1TB       | 1TB            |
 
-There is add-on licenses to provide access to specific Marketing cloud and Data Cloud features.
+There are add-on licenses available to access specific Marketing Cloud and Data Cloud features.
+
 ## Data Actions in Data Cloud
 
-Send an alert or an event to a target based on streaming insights and engagement data to trigger an automation or data integration. `The supported targets are Salesforce Platform Event, Webhook, and Marketing Cloud`.
+Data Actions in Data Cloud allow triggering alerts or events based on streaming insights and engagement data, enabling automation or data integration. Supported targets include Salesforce Platform Events, Webhooks, and Marketing Cloud.
 
-A data action containing a rich payload can be triggered based on certain conditions and can enable downstream systems to drive an action or orchestration.
+Data Actions can:
 
-You can use a data action to focus on near real-time events and insights at different levels, for example, at the channel, product, account, service, sell, fulfillment, engagement, payment, and individual level.
-
-A data action can enable different types of event-driven integrations and orchestrations.
-
-- `Orchestrate Salesforce CRM workflows` with insights and data events from Data Cloud.
-- `Integrate data actions in Mulesoft Anypoint` by sharing aggregated event data with external partners based on criteria.
-- Integrate with SaaS applications with signals from Data Cloud.
-- `Trigger serverless functions that work with a webhook` based on insights in Data Cloud.
-- Connect multicloud workflows or services when useful events happen in Data Cloud.
-- Push unfiltered insights and engagements to your data lake for analysis and storage.
+- Trigger various types of event-driven integrations and orchestrations.
+- Orchestrate Salesforce CRM workflows based on insights and data events from Data Cloud.
+- Integrate with Mulesoft Anypoint by sharing aggregated event data with external partners based on criteria.
+- Integrate with SaaS applications using signals from Data Cloud.
+- Trigger serverless functions via webhook based on insights in Data Cloud.
+- Connect multicloud workflows or services triggered by events in Data Cloud.
+- Push unfiltered insights and engagements to the data lake for analysis and storage.

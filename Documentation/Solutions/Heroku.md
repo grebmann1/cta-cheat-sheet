@@ -1,29 +1,32 @@
 [Table of contents](../Documentation.md)
+
 # Heroku
 
-Heroku is a platform as a service (PaaS) that enables developers to build, run, and operate applications entirely in the cloud.
+Heroku is a platform as a service (PaaS) that empowers developers to build, run, and manage applications entirely in the cloud.
 
-Heroku is easily scallable and provide specific features that help to integrate external apps with salesforce and solve specific compliance issues.
-
+Heroku is highly scalable and offers specific features facilitating the integration of external applications with Salesforce, along with addressing various compliance issues.
 
 ## Heroku Shield
-Heroku Shield is available to Heroku Enterprise customers as an additional package.\
-Your Shield apps run in `your own network isolated Heroku Shield Private Space` using Heroku Shield Private Dynos to further enhance security at runtime.
-### Regulation compliant 
- 1. PHI - HIPAA (Protected Health Information)
- 2. PCI - lvl 1 (Payment Card Industry)
-    - Payment Token can be stored safely
+
+Heroku Shield is an additional package available to Heroku Enterprise customers. `Apps operating under Shield run within a network-isolated Heroku Shield Private Space`, utilizing Heroku Shield Private Dynos to enhance runtime security.
+
+### Compliance Regulations Supported
+
+1. PHI - HIPAA (Protected Health Information)
+2. PCI - Level 1 (Payment Card Industry)
+   - Secure storage of payment tokens
 
 ### Heroku Shield Postgres
-Shield Postgres further extends Heroku Postgres to guarantee that your sensitive data is always encrypted both in transit and at rest.
 
-### Kafka
-Apache Kafka on Heroku Shield combines the industry-leading open source solution for managing event streams with the strict controls needed to deliver real-time, HIPAA-compliant apps.
+Shield Postgres extends Heroku Postgres, ensuring encryption of sensitive data in transit and at rest.
+
+### Kafka on Heroku Shield
+
+Apache Kafka on Heroku Shield combines the leading open-source solution for managing event streams with strict controls to deliver real-time, HIPAA-compliant applications.
 
 ## Heroku Connect
 
-Heroku Connect is an add-on that synchronizes data between your Salesforce organization and a Heroku Postgres database.\
-Using Heroku Connect with Heroku Postgres, you can build custom applications that interact with your Salesforce data.
+Heroku Connect is an add-on that synchronizes data between a Salesforce organization and a Heroku Postgres database.
+By utilizing Heroku Connect with Heroku Postgres, custom applications can interact seamlessly with Salesforce data.
 
-`A license for each integration user` is required.
-Heroku connect can also use `Shield`to be compliant.
+**Note:** `A license for each integration user is required`. Heroku Connect can leverage 'Shield' for compliance purposes.
