@@ -60,7 +60,7 @@ Teams are a particular sharing process specifically for a limited set of Salesfo
 
 ### Account Relationships and Account Relationship Data Sharing Rules
 Account relationships and account relationship data sharing rules give you granular control over how account information is shared.\
-They allow you to share object records related to an account, such as cases, opportunities, and contacts.\
+They allow you to share object records related to an account, such as `cases`, `opportunities`, and `contacts`.\
 The shared records don’t have to be owned by a user of that account, they just have to be associated with it.\ 
 You can also determine the access level granted, such as read or write.
 
