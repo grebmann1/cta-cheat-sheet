@@ -39,7 +39,7 @@ Organization-Wide Default (OWD) establishes the sharing baseline for all standar
 
 #### Exceptions Related to Specific Objects
 
-- Knowledge sharing is controlled by "Data Categories" or "Standard Sharing."
+- Knowledge sharing is controlled by "Data Categories" or "Standard Sharing".
 - Products (No Sharing Rules except for Guest User).
 - Person Account implies:
     - Contact controlled by parents.
@@ -57,3 +57,15 @@ Teams are a particular sharing process specifically for a limited set of Salesfo
 - `Account`
 - `Opportunity`
 - `Case`
+
+### Account Relationships and Account Relationship Data Sharing Rules
+Account relationships and account relationship data sharing rules give you granular control over how account information is shared.\
+They allow you to share object records related to an account, such as cases, opportunities, and contacts.\
+The shared records don’t have to be owned by a user of that account, they just have to be associated with it.\ 
+You can also determine the access level granted, such as read or write.
+
+Use the object `Account Relationship` to provide granual to Partners accounts and use the 3 OTB fields:
+- Account From
+- Account To
+- Account Relationship Type (Advertiser, Contractor, Broker, Client, etc)
+
