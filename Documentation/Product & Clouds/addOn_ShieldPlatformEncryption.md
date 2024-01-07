@@ -1,11 +1,11 @@
 [Table of Contents](../Documentation.md)
 
-# Salesforce Shield
+# Platform Encryption
 
 Shield Platform Encryption enhances the data encryption options provided by Salesforce. It encrypts data stored in many standard and custom fields, files, and attachments using an advanced HSM-based key derivation system, ensuring protection even when other lines of defense are compromised.
 
 ## Licenses
-Salesforce Shield is provided via an Org License (No User license).
+Salesforce Platform Encryption is provided via an `Platform License` (No User license).
 
 ## Encryption Key
 Different RSA keys can be used to encrypt data:
