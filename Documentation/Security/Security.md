@@ -82,3 +82,23 @@ Certain information should not be stored, including:
 - Authentication Data
 
 If using `Salesforce Standard` for storage, only the `Token` provided by the payment gateway should be stored for compliance.
+
+## Data Masking (Sandboxes)
+
+Salesforce Data Mask stands as a robust data security tool tailored for Salesforce administrators and developers. Rather than manually securing data and managing access in sandbox orgs, Data Mask automates the data masking process within these environments. This powerful tool empowers admins and developers to obfuscate sensitive information such as Personally Identifiable Information (PII) or sales revenue seamlessly.
+
+This solution covers a wide spectrum of Salesforce offerings, including 
+- Sales Cloud
+- Service Cloud
+- Work.com
+- Salesforce's Industry products
+- AppExchange applications and platform customizations.
+
+Leveraging platform-native obfuscation technology, Data Mask ensures the masking of sensitive data in both full and partial sandboxes. Admins have the flexibility to apply `varying levels of masking based on the sensitivity of the information`. Once the data undergoes masking in a sandbox, the process is irreversible, guaranteeing that the data cannot be reversed to a readable or identifiable state in any other environment. It's important to note that this safeguarding process does not impact production data. Should the need arise, admins can always refresh the sandbox data from the production environment, creating a new sandbox org.
+
+This tool provides configurable options to handle different levels of masking, depending on the data sensitivity:
+
+- Replace private data in sandboxes with random characters.
+- Substitute private data with mapped words following a similar context.
+- Apply pattern-based masking to mask private data.
+- Option to delete sensitive data altogether.

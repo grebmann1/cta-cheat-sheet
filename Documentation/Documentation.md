@@ -24,7 +24,8 @@
  - [Salesforce Field Service](./Product%20&%20Clouds/addOn_FieldService.md)
 
 ### Business solution
-To solve business requirements, existing applications/packages can be directly installed from [App Exchange](./Solutions/AppExchange.md).
+To solve business requirements, existing applications/packages can be directly installed from:
+- [App Exchange](./Solutions/AppExchange.md)
 
 #### Common Business Application 
 - [Documentation Generation Solutions](./Solutions/DocumentGeneration.md)
@@ -58,6 +59,10 @@ To solve business requirements, existing applications/packages can be directly i
 
 ### Security
 - [Security](./Security/Security.md)
+
+### Governance
+- [Governance](./Governance/Governance.md)
+- [Development Lifecycle](./Governance/Development%20Lifecycle.md)
 
 ### Solving the scenario
 - Guidelines
