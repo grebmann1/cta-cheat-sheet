@@ -1,4 +1,4 @@
-[Table of contents](../Documentation.md)
+[Table of Contents](../Documentation.md)
 
 # E-Signature
 

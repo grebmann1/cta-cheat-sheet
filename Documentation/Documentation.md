@@ -1,4 +1,4 @@
-# Table of contents
+# Table of Contents
 ### Salesforce Core information
  - [Salesforce Editions](./Core/Editions.md)
  - [Sharing](./Core/Sharing.md)
