@@ -7,6 +7,13 @@ Package that helps enable advanced quoting and build customizable solutions.
 ## Licenses
 
 The licensing model is based on permission set licenses. When a permission set is assigned to the user, the permission set license is consumed.
+- Salesforce CPQ License
+- Salesforce CPQ Billing License
+- Salesforce CPQ AA License (Advanced Approval)
+
+Extra Licenses:
+- DocuSign Quote Generation for Salesforce CPQ
+- Conga Quote Generation for Salesforce CPQ
 
 For External users, there are extra licenses:
 

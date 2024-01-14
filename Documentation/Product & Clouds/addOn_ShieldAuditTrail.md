@@ -6,6 +6,8 @@ Field Audit Trail  in Salesforce is a feature designed to track changes made to 
 
 ## Licenses
 Salesforce Field Audit Trail is provided via an `Platform License` (No User license).
+- Salesforce Payments External
+- Salesforce Payments Internal
 
 ## Field Audit Trail
 This add-on stores historical data as Big Objects in Salesforce. Historical data is migrated from related history lists such as Account History into the `FieldHistoryArchive` big object.

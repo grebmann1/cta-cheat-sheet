@@ -12,14 +12,18 @@ With the Order Management app:
 
 ## Licenses
 
-Salesforce Order Management is provided via a global license based on the "Income" (no user license).
+Salesforce Order Management is based on "Income" (No User license).
 
-| Features                  | Order Management - `Order Visibility` | Order Management - `Growth` |
-|---------------------------|----------------------------------------|-----------------------------|
-| Complete Lifecycle Management | ❌                                  | ✅                           |
-| Payment                   | ❌                                    | ✅                           |
-| Invoicing                 | ❌                                    | ✅                           |
-| Cancellation Return       | ❌                                    | ✅                           |
+The licensing model is based on permission set licenses. When a permission set is assigned to the user, the permission set license is consumed.
+- Lightning Order Management User
+
+
+| Features | Order Management - `Order Visibility` | Order Management - `Growth` |
+|----------|---------------------------------------|-----------------------------|
+| Complete Lifecycle Management | ❌| ✅ |
+| Payment                   | ❌  | ✅ |
+| Invoicing                 | ❌  | ✅ |
+| Cancellation Return       | ❌  | ✅ |
 
 # Documentation
 

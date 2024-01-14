@@ -13,5 +13,8 @@ With Salesforce Payment, you can:
 ## Data Model
 ![Data Model](../../Images/CTA%20-%20Diagrams%20-%20Payment%20-%20Data%20model.png)
 
+## Licenses
+The licensing model is based on permission set licenses. When a permission set is assigned to the user, the permission set license is consumed.
+
 ## Limitations
 Salesforce Payments isn’t available to customers contracting with Salesforce and based in Brazil, Ireland, India, and Japan. However, merchants contracting with Salesforce outside of these countries can set up Salesforce Payments Stripe accounts.

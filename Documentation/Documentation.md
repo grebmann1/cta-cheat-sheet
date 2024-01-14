@@ -21,6 +21,7 @@
 - [Salesforce Knowledge](./Product%20&%20Clouds/Knowledge.md)
 - [Salesforce CPQ](./Product%20&%20Clouds/addOn_CPQ.md)
 - [Salesforce Order Management](./Product%20&%20Clouds/addOn_OrderManagement.md)
+- [Salesforce Subscription Management](./Product%20&%20Clouds/addOn_SubscriptionManagement.md)
 - [Salesforce Field Service](./Product%20&%20Clouds/addOn_FieldService.md)
 
 #### Shield Products
