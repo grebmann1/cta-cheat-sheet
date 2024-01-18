@@ -41,22 +41,13 @@ Non-API clients (Apex triggers, Process Builder processes, and flows) don’t co
 | Event Delivery: maximum number of delivered event notifications in the last 24 hours (shared by all clients). **[Add On]** | `50k` | 25k | 25k |  |
 | Event Publishing: maximum number of event notifications published per hour. **[Add On]** | `250k` | 250k | 250k |  |
 
-#### High Volume Add-on License
+### High Volume Add-on License
 
 This add-on can be purchased multiple times, increasing delivery by:
 
-##### Delivery
-- `+100k Daily (5x 100k = 500k Technical Limit)`
-- `+3M Monthly`
-
-##### Publishing
-- `+25k/hour`
-
 | Description | Unlimited | Enterprise | Professional | Essential |
 |-------------|-----------|------------|--------------|-----------|
-| **Event Delivery**: maximum number of delivered event notifications in the last 24 hours (shared by all clients). | Last 24 hours: `+100k`. Monthly entitlement: `+3M` | Last 24 hours: **+100k**. Monthly entitlement: **+3M** | Last 24 hours: **+100k**. Monthly entitlement: **+3M** |  |
+| **Event Delivery**: maximum number of delivered event notifications in the last 24 hours (shared by all clients). | Last 24 hours: `+100k`. Monthly entitlement: `+3M` | Day: **+100k**. Month: **+3M** | Day: **+100k**. Month: **+3M** |  |
 | **Event Publishing**: maximum number of event notifications published per hour. | `+25k`/hour | **+25k**/hour | **+25k**/hour |  |
 
-### Documentation
 
-1. [Streaming A

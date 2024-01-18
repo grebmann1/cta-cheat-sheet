@@ -43,17 +43,19 @@ Events are stored in the event bus for `3 days (72h)`. Each event contains a "Re
 | Maximum number of entities selected for Change Data Capture across channels. **[Add On]** | 5 | 5 |
 | Event Delivery: maximum number of delivered event notifications in the last 24 hours, shared by all clients. **[Add On]** | 25k | `50k` |
 
+There is `No Publishing Limits`on CDC as this can't be controlled by Salesforce.
+
 #### Change Data Capture Add-on License
 
 This add-on can be purchased multiple times. It increases delivery by:
 
-- `100k Daily (5x 100k = 500k Technical Limit)`
+- `100k Daily (5x 100k = 500k Technical Limit / add on license)`
 - `3M Monthly`
 
 | Description | Enterprise | Unlimited |
 |-------------|------------|-----------|
 | Maximum number of entities for Change Data Capture on channels | No Limit | `No Limit` |
-| Event Delivery: maximum number of delivered event notifications in the last 24 hours, shared by all clients | Last 24 hours: **+100k**. Monthly entitlement: **+3M** | Last 24 hours: `+100k`. Monthly entitlement: `+3M` |
+| Event Delivery: maximum number of delivered event notifications in the last 24 hours, shared by all clients | Day: **+100k**. Month: **+3M** | Day: `+100k`. Month: `+3M` |
 
 ### Documentation
 
