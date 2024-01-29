@@ -49,6 +49,16 @@ For external users, the `CRM Analytics for Communities` permission set license i
 | CRM Analytics for Health Cloud        | 25 million       |
 | Extra Data Rows license               | `100 million`    |
 
+## API Call Limits
+
+Apply to all supported editions
+
+| API Call                                              | Limit |
+|-------------------------------------------------------|-------|
+| Maximum concurrent CRM Analytics API calls per org    | 100   |
+| Maximum CRM Analytics API calls per user per hour     | 10000 |
+
+
 ##### Note
 When using a Salesforce local input connection, `CRM Analytics bulk API usage doesn’t count towards Salesforce bulk API limits`. The use of external Salesforce connections and output connection impacts your limits. The dataflow submits separate bulk API calls to extract data from each Salesforce object, utilizing a batch size of 100,000–250,000. For instance, to extract 1 million rows from an object, the dataflow creates 4–10 batches.
 
