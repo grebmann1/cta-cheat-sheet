@@ -61,6 +61,7 @@ To solve business requirements, existing applications/packages can be directly i
 ### Auth & Identity Management
 - [List of OAuth Flows](./OAuth%20Flows/OAuthFlows.md)
 - [Customer Identity](./Identity%20Management/CustomerIdentity.md)
+- [Headless Identity](./Identity%20Management/HeadlessIdentity.md)
 
 ### Archive & Backup
 - [Archiving & Backup](./Archive%20&%20Backup/Archiving.md)

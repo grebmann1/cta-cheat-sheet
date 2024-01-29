@@ -31,7 +31,7 @@ CRM Analytics uses a specific connector designed to connect Salesforce and Table
 | License                 | Description                              |
 |-------------------------|------------------------------------------|
 | CRM Analytics Growth    | Basic, provides `100M` rows per license.  |
-| CRM Analytics Plus      | Provides more data, `1B` rows per license.|
+| CRM Analytics Plus      | Provides more data, `10B` rows per license.|
 
 For external users, the `CRM Analytics for Communities` permission set license is required.
 
