@@ -4,6 +4,7 @@
 
 ## Different Ways of Sharing Records
 - Organization-Wide Default
+- Implicit sharing (Parent - Child)
 - Role Hierarchy
 - Sharing Rules (Criteria & Ownership)
 - Sharing Set (External User)
