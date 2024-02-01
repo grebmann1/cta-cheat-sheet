@@ -28,4 +28,7 @@ The only important aspect to take into consideration is that backup can only be 
 Solutions such as `Own Backup` are ideal to manage archiving schedules and store the data in Amazon S3.\
 `Own Backup` is available in App Exchange.
 
+`Own Backup` also provide `Data virtualization` via a library of Lightning components that you can insert in your lightning apps.
+
+![Salesforce Backup](../../Images/ownbackup-1.png)
 
