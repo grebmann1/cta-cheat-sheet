@@ -25,6 +25,8 @@
 - [Salesforce Subscription Management](./Product%20&%20Clouds/addOn_SubscriptionManagement.md)
 - [Salesforce Field Service](./Product%20&%20Clouds/addOn_FieldService.md)
 - [Salesforce Financial Service](./Product%20&%20Clouds/addOn_FinancialServiceCloud.md)
+- [Salesforce Education Cloud](./Product%20&%20Clouds/addOn_EducationCloud.md)
+- [Salesforce Automotive Cloud](./Product%20&%20Clouds/addOn_AutomotiveCloud.md)
 
 #### Shield Products
 - [Audit Trail](./Product%20&%20Clouds/addOn_ShieldAuditTrail.md)
