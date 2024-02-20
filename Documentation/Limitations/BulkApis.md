@@ -8,8 +8,9 @@ You can submit up to 15,000 batches per rolling 24-hour period. This allocation 
 In Bulk API 2.0, batches are created for you automatically. In Bulk API, you must create the batches yourself.
 
 ### Bulk API 1.0 vs 2.0
-- 2.0 supports automatic retry of failed records.
-- `2.0 supports parallel processing` (Best way to justify 2.0)
+- 2.0 supports `automatic retry of failed records`.
+- 2.0 support `Automatic parallel processing` (Best way to justify 2.0).
+- 2.0 has `Higher concurrency limits`.
 
 ### General Limits
 | Item | Bulk API Limit | Bulk API 2.0 Limit |

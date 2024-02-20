@@ -53,7 +53,6 @@ To solve business requirements, existing applications/packages can be directly i
 - [API Request Limits](./Limitations/APIRequestLimits.md)
 - [Apex Governor Limits](./Limitations/ApexGovernorLimits.md)
 - [Bulk API Limits](./Limitations/BulkApis.md)
-- [Sharing Limits](./Limitations/SharingLimits.md)
 - [Reporting Limits](./Limitations/ReportingLimits.md)
 - [Feature Limits](./Limitations/FeatureLimits.md)
 
