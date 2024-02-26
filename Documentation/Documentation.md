@@ -17,16 +17,24 @@
 - [Tableau & CRM Analytics](./Product%20&%20Clouds/Tableau.md)
 - [Data Cloud](./Product%20&%20Clouds/DataCloud.md)
 
+#### Industries
+- [Industry Shared Features](./Product%20&%20Clouds/industry_sharedFeatures.md)
+- [Salesforce Financial Service](./Product%20&%20Clouds/industry_FinancialServiceCloud.md)
+- [Salesforce Education Cloud](./Product%20&%20Clouds/industry_EducationCloud.md)
+- [Salesforce Automotive Cloud](./Product%20&%20Clouds/industry_AutomotiveCloud.md)
+- [Salesforce Health Cloud](./Product%20&%20Clouds/industry_healthCloud.md)
+- [Salesforce Public Sector Cloud](./Product%20&%20Clouds/industry_PublicSectorCloud.md)
+- [Salesforce Non Profit Cloud](./Product%20&%20Clouds/industry_NonProfitCloud.md)
+
 #### Products & Modules
 - [Salesforce Knowledge](./Product%20&%20Clouds/Knowledge.md)
 - [Salesforce CPQ](./Product%20&%20Clouds/addOn_CPQ.md)
 - [Salesforce Payment](./Product%20&%20Clouds/addOn_Payment.md)
+- [Salesforce Scheduler](./Product%20&%20Clouds/addOn_SalesforceScheduler.md)
 - [Salesforce Order Management](./Product%20&%20Clouds/addOn_OrderManagement.md)
 - [Salesforce Subscription Management](./Product%20&%20Clouds/addOn_SubscriptionManagement.md)
 - [Salesforce Field Service](./Product%20&%20Clouds/addOn_FieldService.md)
-- [Salesforce Financial Service](./Product%20&%20Clouds/addOn_FinancialServiceCloud.md)
-- [Salesforce Education Cloud](./Product%20&%20Clouds/addOn_EducationCloud.md)
-- [Salesforce Automotive Cloud](./Product%20&%20Clouds/addOn_AutomotiveCloud.md)
+
 
 #### Shield Products
 - [Audit Trail](./Product%20&%20Clouds/addOn_ShieldAuditTrail.md)
