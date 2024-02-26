@@ -38,6 +38,10 @@ Salesforce Scheduler provide components that can be used in Salesforce and Exper
 ![Data Model](../../Images/salesforceScheduler_screen3.png)
 
 ### Data Model
+#### Core Data Model
+
+![Data Model](../../Images/SalesforceScheduler2.png)
+#### Including Industry Cloud
 ![Data Model](../../Images/SalesforceScheduler.png)
 
 ## Links
