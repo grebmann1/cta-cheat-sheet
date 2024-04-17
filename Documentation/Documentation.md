@@ -31,6 +31,7 @@
 - [Salesforce Payment](./Product%20&%20Clouds/addOn_Payment.md)
 - [Salesforce Scheduler](./Product%20&%20Clouds/addOn_SalesforceScheduler.md)
 - [Salesforce Order Management](./Product%20&%20Clouds/addOn_OrderManagement.md)
+- [Salesforce Feedback Management](./Product%20&%20Clouds/addOn_FeedbackManagement.md)
 - [Salesforce Subscription Management](./Product%20&%20Clouds/addOn_SubscriptionManagement.md)
 - [Salesforce Field Service](./Product%20&%20Clouds/addOn_FieldService.md)
 
