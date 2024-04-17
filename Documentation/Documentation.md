@@ -25,15 +25,18 @@
 - [Salesforce Public Sector Cloud](./Product%20&%20Clouds/industry_PublicSectorCloud.md)
 - [Salesforce Non Profit Cloud](./Product%20&%20Clouds/industry_NonProfitCloud.md)
 
-#### Products & Modules
-- [Salesforce Knowledge](./Product%20&%20Clouds/Knowledge.md)
+#### Products
 - [Salesforce CPQ](./Product%20&%20Clouds/addOn_CPQ.md)
+- [Salesforce Knowledge](./Product%20&%20Clouds/Knowledge.md)
+- [Salesforce Field Service](./Product%20&%20Clouds/addOn_FieldService.md)
+
+#### Modules
 - [Salesforce Payment](./Product%20&%20Clouds/addOn_Payment.md)
 - [Salesforce Scheduler](./Product%20&%20Clouds/addOn_SalesforceScheduler.md)
 - [Salesforce Order Management](./Product%20&%20Clouds/addOn_OrderManagement.md)
 - [Salesforce Feedback Management](./Product%20&%20Clouds/addOn_FeedbackManagement.md)
 - [Salesforce Subscription Management](./Product%20&%20Clouds/addOn_SubscriptionManagement.md)
-- [Salesforce Field Service](./Product%20&%20Clouds/addOn_FieldService.md)
+- [Salesforce Digital Engagement](./Product%20&%20Clouds/addOn_digitalEngagement.md)
 
 
 #### Shield Products

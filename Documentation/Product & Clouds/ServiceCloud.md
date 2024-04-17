@@ -21,10 +21,10 @@
 
 ### What features are available as an Add-On
 
-- Live Agent (Free with Unlimited edition)
+- Live Agent (Free with Unlimited edition, part of Digital Engagement)
 - Service Voice (CTI) [link](https://www.salesforce.com/products/service-cloud/solutions/call-center-management/?d=cta-body-promo-297)
 - Einstein Bots (Chatbots)
-- Live Messaging
+- Digital Engagement (Live Messaging)
 - Feedback Management [link](https://www.salesforce.com/products/service-cloud/solutions/call-center-management/?d=cta-body-promo-297)
 - Field Service
 - Appointment Assistant
