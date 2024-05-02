@@ -104,3 +104,6 @@ Solutions:
 - Consider Privacy Center functionality for archiving and maintaining clean data records, including archiving fields, leveraging Record Type (RT)-based Sharing, and reviewing consent forms.
 
 These guidelines are aimed at optimizing data management practices, sharing rules, and object utilization within Salesforce, ensuring efficient and effective business operations.
+
+### Form, Questionnaire and Assessments
+Look at Salesforce Survey, 123FormBuilder or Even Conga Form builder to create a good user experience.
