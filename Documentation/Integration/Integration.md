@@ -19,8 +19,8 @@ Different technologies can be used to connect systems together such as:
 - REST API
 - SOAP API
 - Streaming API (Events)
-    - [Change Data Capture](ChangeDataCapture.md)
-    - [Platform Event](PlatformEvent.md)
+    - [Change Data Capture](#Integration/ChangeDataCapture.md)
+    - [Platform Event](#Integration/PlatformEvent.md)
     - Kafka (Apache)
 - OData (Data Virtualization)
-    - [Salesforce Connect](SalesforceConnect.md)
+    - [Salesforce Connect](#Integration/SalesforceConnect.md)
