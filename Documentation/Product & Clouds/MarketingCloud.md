@@ -38,9 +38,24 @@ Salesforce Marketing Cloud is a marketing automation platform that is used for:
 
 ![Journey](../../Images/CTA%20-%20Diagrams%20-%20Marketing%20Cloud%20-%20Journey%20Builder.png)
 
+## How To 
+
+### Send Dynamic email based on Different Languages
+An easy solution is to use "Data Extension" and Ampscript to dynamicaly fetch the content based on the "Target" language and generate the email dynamicaly instead of keeping 1 template/language.
+
+
 # Products/Features of marketing cloud
 ## Social Studio
-
+`END OF LIFE in November 2024`
 Social Studio is a one-stop solution to manage, schedule, create, and monitor posts. You can organize posts by brand, region, or multiple teams and individuals in a unified interface. Social Studio offers powerful real-time publishing and engagement.
 
 Social Studio offers powerful real-time publishing and engagement platform for content marketers, plus the comprehensive content performance by social network and time frame. A single interface offers a fully customizable team-based collaboration platform that analyzes channel and content performance. Analyze current trends and recommend new content ideas.
+
+
+## Alternative for specific business cases:
+
+### Send Email
+To send email, you can consider a simple alternative such as `Mail Chimp` (App Exchange available)
+
+### Send SMS
+To send SMS, I would suggest to use `SMS Magic`. It Can be used for SMS, Facebook Messenger, and WhatsApp. (App Exchange available)
