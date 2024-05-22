@@ -38,7 +38,7 @@ A comparison of features across different community licenses:
 | Custom Objects| 10| 10| 10 | 100|
 | Send Email| ❌| ✅| ✅ |❌|
 | Sharing Sets| ✅| ✅ | ✅ | ✅|
-| Account Teams |❌| ✅| ✅ | ❌|
+| Account Teams |❌| ❌| ✅ | ❌|
 | Advanced Sharing Rules |❌|❌| ✅ |  ✅|
 | Omnichannel |❌|❌| ❌| ❌| ❌ |
 | Reports & Dashboards |❌| Read Only| ✅ | ✅ | ❌|
