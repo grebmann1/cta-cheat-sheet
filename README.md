@@ -1,4 +1,4 @@
-# Certified Technical Architect (CTA) Cheat Sheet
+# Certified Technical Architect (CTA) - Personal Notes
 
 ## Objective of this Document
 
