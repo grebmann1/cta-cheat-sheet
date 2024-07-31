@@ -6,11 +6,11 @@ It's forbidden to use Experience Cloud Licenses for internal users. Different li
 
 | License | Description |
 |---------|-------------|
-| External App |
-| Customer Community |
-| Customer Community Plus |
-| Partner Community |
-| Channel |
+| External App |The External App license is designed for external users who need access to custom applications built on the Salesforce platform. These users can interact with Salesforce data via custom apps, but the license limits access to standard Salesforce objects. This is suitable for organizations that want to extend custom functionality to external users without granting full Salesforce access |
+| Customer Community | The Customer Community license is intended for external users who need access to Salesforce for activities such as case management, viewing knowledge articles, and engaging with a company’s service and support team. This license is typically used for B2C interactions, where customers need limited access to Salesforce resources to find solutions to their problems, engage with support, or view their account information.| 
+| Customer Community Plus | The Customer Community Plus license provides more advanced access compared to the Customer Community license. It is designed for external users, such as customers or partners, who need additional capabilities like access to reports, dashboards, and the ability to collaborate more extensively with internal users. This license is often used in B2B scenarios where customers need deeper engagement and collaboration capabilities.| 
+| Partner Community | The Partner Community license is tailored for external partners who need access to Salesforce to manage leads, opportunities, and campaigns, as well as collaborate on deals. This license includes access to additional objects and features that support channel sales and partner relationship management, making it ideal for organizations that work closely with a network of partners. |
+| Channel | The Channel license (often referred to as the "Channel Account" license) is used by channel partners who manage reseller or distributor relationships. It enables users to access Salesforce to manage their accounts, leads, opportunities, and other sales-related activities. This license is designed for complex partner relationships where partners need deep access to Salesforce functionality to support their sales and distribution efforts. |
 
 ![Licenses](../../Images/ExperienceCloud_licence_1.png)
 
@@ -39,7 +39,7 @@ A comparison of features across different community licenses:
 | Send Email| ❌| ✅| ✅ |❌|
 | Sharing Sets| ✅| ✅ | ✅ | ✅|
 | Account Teams |❌| ❌| ✅ | ❌|
-| Advanced Sharing Rules |❌|❌| ✅ |  ✅|
+| Advanced Sharing Rules |❌|✅| ✅ |  ✅|
 | Omnichannel |❌|❌| ❌| ❌| ❌ |
 | Reports & Dashboards |❌| Read Only| ✅ | ✅ | ❌|
 | Territory Management|❌|❌|✅|✅|

@@ -70,14 +70,12 @@ To solve business requirements, existing applications/packages can be directly i
 ### Data & File Storage
 - [Data Storage](./Storage/DataStorage.md)
 - [File Storage](./Storage/FileStorage.md)
+- [Archiving & Backup](./Storage/Archiving.md)
 
 ### Auth & Identity Management
 - [List of OAuth Flows](./OAuth%20Flows/OAuthFlows.md)
 - [Customer Identity](./Identity%20Management/CustomerIdentity.md)
 - [Headless Identity](./Identity%20Management/HeadlessIdentity.md)
-
-### Archive & Backup
-- [Archiving & Backup](./Archive%20&%20Backup/Archiving.md)
 
 ### Security
 - [Compliance](./Security/Compliance.md)

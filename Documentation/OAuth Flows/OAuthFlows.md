@@ -4,15 +4,18 @@
 
 ## List of Flows
 
-- Web Server Flow
-- User Agent Flow
-- JWT Bearer Flow
-- Device Flow (Special)
-- Asset Token Flow (Special)
-- Username and Password Flow
-- Refresh Token Flow
-- SAML Assertion Flow
-- SAML Bearer Assertion Flow (Similar to Refresh but uses SAML)
+- Mobile & Browser
+    - Web Server Flow
+    - User Agent Flow
+- Server
+    - JWT Bearer Flow
+    - SAML Bearer Flow
+    - Client Credential Flow
+    - Refresh Token Flow
+    - Username and Password Flow
+- IOT
+    - Device Flow (Special)
+    - Asset Token Flow (Special)
 
 ## SAML vs OpenId Connect
 
@@ -44,15 +47,22 @@ In the IDP initiated Flow, we assume that the user is already logged in the IDP.
 
 # GENERAL OAUTH 2.0 FLOWS
 
-## Web Server Flow
+## Mobile & Browser
+
+### Web Server Flow
 
 ![Web Server Flow](../../Images/CTA%20-%20Diagrams%20-%20Web%20Server%20Flow.png)
 
-## User Agent Flow
+### User Agent Flow
+
+This is a deprecated flow. It's recommended to use the "Web Server Flow" with PKCE (Proof Key for Code Exchange)
 
 ![User Agent Flow](../../Images/CTA%20-%20Diagrams%20-%20User%20Agent%20Flow.png)
 
-## JWT Bearer Flow
+## Servers
+
+### JWT Bearer Flow
+JWT can include extra information such as user information, context, etc
 
 ![JWT Bearer Flow](../../Images/CTA%20-%20Diagrams%20-%20JWT%20Bearer%20Flow.png)
 

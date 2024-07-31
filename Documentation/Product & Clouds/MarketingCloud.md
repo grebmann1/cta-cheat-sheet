@@ -44,6 +44,10 @@ Salesforce Marketing Cloud is a marketing automation platform that is used for:
 An easy solution is to use "Data Extension" and Ampscript to dynamicaly fetch the content based on the "Target" language and generate the email dynamicaly instead of keeping 1 template/language.
 
 
+### Synchronize Campaign & Campaign members
+Campaign & Campagin members are synchronize automatically using the Marketing Connector.
+
+
 # Products/Features of marketing cloud
 ## Social Studio
 `END OF LIFE in November 2024`
