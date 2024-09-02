@@ -1,48 +1,84 @@
 [Table of Contents](../Documentation.md)
+
 # Archiving
 
-## Different Archiving Stategies
+## Different Archiving Strategies
 
-When archiving, you should decide if you store the data in Salesforce `Big Objects` or outside Salesforce in an DataWarehouse or DataLake.
-It's recommended to avoid Big Objects for the CTA exam as it's easier to justify.
+When archiving, decide whether to store data in Salesforce `Big Objects` or externally in a Data Warehouse or Data Lake. Avoid using Big Objects for the CTA exam due to justification difficulties and potential issues with Salesforce Shield.
 
-Data can be archived in any data solution such as : 
-- DataLake: `Amazon S3 Bucket` (Data & Files)
-- DataWarehouse: `Snowflake` (Data & Files)
+### Recommended External Solutions:
+- **Data Lake:** `Amazon S3 Bucket` (Data & Files)
+- **Data Warehouse:** `Snowflake` (Data & Files)
 
+## Archive LDV Records
 
-## Archive LDV records
-It's important to archive LDV records to avoid degrading the performance of your orgs.
+Archiving Large Data Volumes (LDV) is crucial to maintain optimal performance in your Salesforce org.
 
+## Salesforce Solutions
 
-## Salesforce Solution
-No Specific salesforce product but solutions can be found on App Exchange to archive data from Salesforce in Big Objects and make them available via LWC components.
+No specific Salesforce product exists for archiving, but AppExchange offers solutions to archive data in Big Objects and make them accessible via LWC components.
 
 ## External Solutions
 
 ### Own - Data Archive
-Solutions such as `Own - Data Archive` are ideal to manage archiving schedules and store the data in Amazon S3.\
-`Own Data Archive` is available in App Exchange.
 
-`Own Data Archive` also provide `Data virtualization` via a library of Lightning components that you can insert in your lightning apps.
+`Own - Data Archive` is ideal for managing archiving schedules and storing data in Amazon S3. It also provides data virtualization via a library of Lightning components.
 
 ![Salesforce Backup](../../Images/ownbackup-1.png)
 
-### Own - Data Archive
+## Recommendation for CTA Exam
 
+While `Own Data Archive` offers comprehensive capabilities, it involves migrating all data into Salesforce before archiving, which is difficult to defend in the CTA exam. The preferred pattern involves archiving data during the migration process, providing access via OData, and having a scheduled archiving plan.
 
+### Recommended Solutions:
+
+#### 1. **PostgreSQL on Heroku**
+- **Components:**
+  - Heroku Connect (External Object)
+  - REST API (LWC)
+  - Files not supported (Consider using an S3 Bucket)
+  - Provides a connector for CRM Analytics
+- **Pros:**
+  - Seamless integration with Salesforce
+  - Real-time data synchronization
+  - Suitable for structured data
+
+#### 2. **AWS S3 Bucket**
+- **Components:**
+  - Middleware with OData Connector (External Objects)
+  - REST API (LWC)
+  - File supported
+  - Provides a connector for CRM Analytics
+- **Pros:**
+  - Scalable and cost-effective
+  - Supports structured and unstructured data
+  - Easy integration with AWS services
+
+#### 3. **Snowflake (Using AWS S3)**
+- **Components:**
+  - Middleware with OData Connector (External Objects)
+  - REST API (LWC)
+  - File supported
+  - Provides a connector for CRM Analytics
+- **Pros:**
+  - High-performance data warehousing
+  - Scalable and flexible
+  - Extensive data analytics capabilities
+
+These solutions leverage ETL processes and are easier to defend in the CTA exam, aligning with best practices expected by the judges. Each option offers a robust and scalable approach to data archiving while ensuring seamless access and integration with Salesforce.
 
 # Backup Solution
-## Salesforce Solution - Salesforce Backup
-Salesforce is providing a solution called `Salesforce Backup` that can be used to manage Backup directly from Salesforce and control the schedule of backups.\
-Data are stored in AWS and migrated there using the `Bulk API `(Web Server flow)
 
-The only important aspect to take into consideration is that backup can only be `Daily` and `Files aren't supported` yet (November 2023) so it's not enterprise ready.
+## Salesforce Solution - Salesforce Backup
+
+`Salesforce Backup` manages backups directly from Salesforce, storing data in AWS via the `Bulk API (Web Server flow)`. However, it only supports daily backups and does not yet support files (as of November 2023), making it less suitable for enterprise needs.
 
 ![Salesforce Backup](../../Images/CTA%20-%20Diagrams%20-%20Salesforce%20Backup.png)
 
 ## External Solution
-Solutions such as `Own - Backup` are ideal to manage archiving schedules and store the data in Amazon S3.\
+
+`Own - Backup` is ideal for managing backup schedules and storing data in Amazon S3.
 
 ## Custom Built Solution
 
+Consider custom-built solutions tailored to specific backup and archiving needs.
