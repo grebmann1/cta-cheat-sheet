@@ -1,12 +1,4 @@
 # Table of Contents
-### Solving the scenario
-- [Guidelines](./Exam/Guidelines.md)
-- Overview & Licensing
-- Data Model
-- [Data Migration](./Exam/Guidelines.md)
-- System Landscape
-- Development Lifecycle
-- Governance
 
 ### Salesforce Core information
 - [Salesforce Editions](./Core/Editions.md)
@@ -96,8 +88,13 @@ To solve business requirements, existing applications/packages can be directly i
 - [Governance](./Governance/Governance.md)
 - [Development Lifecycle](./Governance/Development%20Lifecycle.md)
 
+
 ### Solving the scenario
-- Guidelines
-- Artefacts
-- Presentation
+- [Guidelines](./Exam/Guidelines.md)
+- Overview & Licensing
+- Data Model
+- [Data Migration](./Exam/DataMigration.md)
+- System Landscape
+- Development Lifecycle
+- Governance
 - [Common Pattern](./Solving%20the%20scenario/CommonPattern.md)
