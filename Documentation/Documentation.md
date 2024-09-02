@@ -1,4 +1,8 @@
 # Table of Contents
+### Solving the scenario
+- [Guidelines](./Exam/Guidelines.md)
+- [Data Migration](./Exam/Guidelines.md)
+
 ### Salesforce Core information
 - [Salesforce Editions](./Core/Editions.md)
 - [Sharing](./Core/Sharing.md)
