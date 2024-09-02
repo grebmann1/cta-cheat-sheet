@@ -88,7 +88,6 @@ To solve business requirements, existing applications/packages can be directly i
 - [Governance](./Governance/Governance.md)
 - [Development Lifecycle](./Governance/Development%20Lifecycle.md)
 
-
 ### Solving the scenario
 - [Guidelines](./Exam/Guidelines.md)
 - Overview & Licensing
