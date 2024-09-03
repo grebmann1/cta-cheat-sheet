@@ -90,10 +90,13 @@ To solve business requirements, existing applications/packages can be directly i
 
 ### Solving the scenario
 - [Guidelines](./Exam/Guidelines.md)
+- [Data Migration](./Exam/DataMigration.md)
+- [Common Pattern](./Solving%20the%20scenario/CommonPattern.md)
+
+<!---
 - Overview & Licensing
 - Data Model
-- [Data Migration](./Exam/DataMigration.md)
 - System Landscape
 - Development Lifecycle
 - Governance
-- [Common Pattern](./Solving%20the%20scenario/CommonPattern.md)
+-->
