@@ -24,3 +24,5 @@ The licensing model is based on permission set licenses. When a permission set i
 
 ## Limitations
 Salesforce Payments isn’t available to customers contracting with Salesforce and based in **Brazil**,**Ireland**,**India**, and **Japan**. However, merchants contracting with Salesforce outside of these countries can set up Salesforce Payments Stripe accounts.
+
+So in short, if the HQ is based outside these countries, you can use it. The main reason is that Stripe isn't handling these countries but you can use another payment gateway.
