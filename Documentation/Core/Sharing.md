@@ -70,6 +70,8 @@ Use the object `Account Relationship` to provide granual to Partners accounts an
 - Account To
 - Account Relationship Type (Advertiser, Contractor, Broker, Client, etc)
 
+[Official Documentation](https://help.salesforce.com/s/articleView?id=sf.networks_partner_account_relationships_and_sharing.htm&type=5)
+
 ## Limitations - Sharing Limits
 
 There are two types of sharing rules limits per entity (per object). They are as follows:

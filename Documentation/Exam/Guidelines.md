@@ -45,5 +45,6 @@ A candidate should have hands-on experience as an Architect on the Lightning Pla
 - Describe the common tools, benefits, and rationale for using **source control and continuous integration** for release management.
 
 ## Communication
-- Articulate the benefits, limitations, considerations, and design choices for a solution architecture and handle objections related to the design. Demonstrate how visualization and documentation tools can be used to articulate the technical solution.
+- Articulate the benefits, limitations, considerations, and design choices for a solution architecture and **handle objections related to the design**. 
+- Demonstrate how visualization and documentation tools can be used to articulate the technical solution.
 - Demonstrate the **ability to handle unexpected roadblocks and determine the appropriate next steps**.
