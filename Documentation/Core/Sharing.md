@@ -84,6 +84,6 @@ There are two types of sharing rules limits per entity (per object). They are as
 |------|--------|----------|
 | Sharing Rules (Criteria & Owner based) | `300` | Can be increased to 1,000 |
 | Sharing Rules (Criteria based) | `50` | Can be increased to 200 |
-| Restriction Rules | `5 per Object` | This restricts the records available to the user (Doesn't work with standard objects) |
+| Restriction Rules | `5 per Object` | This restricts the records available to the user ( Support custom objects, external objects, contracts, events, tasks, time sheets, and time sheet entries.) |
 
 Note: Too many sharing rules can slow down inserts and updates. It's recommended to review the organization's sharing rules to determine if an increase is necessary.
