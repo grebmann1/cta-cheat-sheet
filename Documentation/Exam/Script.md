@@ -105,8 +105,8 @@ My recommended environments setup is based on storage capacity and refresh cycle
 - Stage (Full Sdbx)
 - Prod
 
-I recommend source-driven development where GIT is the source control system comprising the code base. 
-Developers would implement the features in scratch orgs, unit test the feature and raise a pull request in GIT.
+I recommend source-driven development where XXX is the source control system comprising the code base. 
+Developers would implement the features in scratch orgs, unit test the feature and raise a pull request in XXX.
 
 To improve the quality, I recommend to:
 - use **SFDX Code Analyser** to do static code analysis.

@@ -90,6 +90,7 @@ To solve business requirements, existing applications/packages can be directly i
 
 ### Solving the scenario
 - [Guidelines](./Exam/Guidelines.md)
+- [Scripts](./Exam/Script.md)
 - Overview & Licensing
 - Data Model
 - [Data Migration](./Exam/DataMigration.md)
