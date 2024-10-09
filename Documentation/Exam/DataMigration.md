@@ -16,13 +16,13 @@ During data migration, it's recommended to follow this flow:
     - Group records by parents to avoid record locking during insertion.
     - Temporarily disable sharing settings.
         - Disable Flow, Trigger, and automation.
-        - Enable defer sharing (to create cases in Salesforce).
+        - Enable defer sharing (Contact Salesforce).
     - Utilize Bulk API 2.0 for efficient parallel data loading.
 
 4. **After Load**
     - Re-enable sharing settings.
         - Enable Flow, Trigger, and automation.
-        - Disable defer sharing (to create cases in Salesforce).
+        - Disable defer sharing (Contact Salesforce).
         - Recalculate sharing settings.
     - Perform data integrity verification.
 

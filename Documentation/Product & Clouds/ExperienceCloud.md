@@ -83,3 +83,13 @@ Information about external roles and allocations:
 | Maximum person account site users that a Salesforce user can own | 50k | Contact Salesforce Customer Support to increase this allocation. |
 
 The default allocation for roles is 50k but can be increased with a Salesforce case (up to 500k with analysis and approval).
+
+## Content Management System (CMS)
+
+Salesforce CMS is an ideal tool for managing and distributing content across various channels from within Salesforce.  
+Content can be shared via:
+
+- LWC Components (used in Experience Cloud, Commerce Cloud)
+- REST API (Connect API)
+
+If you need to integrate an external CMS with Experience Cloud, **CMS Connect** is the solution. It allows you to import content from platforms like WordPress and AEM, ensuring a consistent user experience by synchronizing the header and footer.

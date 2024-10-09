@@ -6,10 +6,11 @@ This section outlines common patterns and best practices to address specific req
 
 ## Assumptions
 
-- Financial resources are not a constraint.
+- Financial resources are not a constraint but should be used wisely.
 - Opting for pre-built solutions over custom development is recommended.
 - Availability of REST APIs if not otherwise specified.
 - Systems support triggering events on data changes.
+- IOT can be pre-configured with Custom Configuration (Example: Connected App.)
 
 ## Multilingual Support
 
