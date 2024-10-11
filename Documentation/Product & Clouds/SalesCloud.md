@@ -49,6 +49,11 @@
 | Enablement | Sell faster with Enablement built directly into your CRM. Embed milestones that tie programs to revenue outcomes, and make every rep a Salesblazer with the best sales enablement platform. | $ | ✅ |
 | Salesforce Map | Sell efficiently with sales mapping software built directly into your CRM. View data on a map interface to make smarter decisions and streamline field execution. | $ | ✅ |
 
+## Notes
+
+### Person Account vs Business Account
+When using Person Account, the address fields aren't calculating automatically the "GeoLocation" so you might need to consider using Business Account or use call Google APIs.
+
 ## Data Model
 
 ### Sales Process
