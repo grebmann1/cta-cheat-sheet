@@ -19,6 +19,7 @@
 
 #### Industries
 - [Industry Shared Features](./Product%20&%20Clouds/industry_sharedFeatures.md)
+- [Salesforce Manufacturing Cloud](./Product%20&%20Clouds/industry_ManufacturingCloud.md)
 - [Salesforce Financial Service](./Product%20&%20Clouds/industry_FinancialServiceCloud.md)
 - [Salesforce Education Cloud](./Product%20&%20Clouds/industry_EducationCloud.md)
 - [Salesforce Automotive Cloud](./Product%20&%20Clouds/industry_AutomotiveCloud.md)

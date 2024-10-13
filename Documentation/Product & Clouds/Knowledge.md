@@ -53,6 +53,12 @@ Unlike Data Categories, topics don't affect article access or have a hierarchy. 
 
 To assign topics to articles, go to Content Management > Topics in Salesforce community workspaces. You can also automate topic assignment based on specific data categories for more efficient tagging of new articles.
 
+### Tips
+To make Articles visibles in Experience cloud, it's recommended to assign topics to articles and use any of the OOTB LWC component in page builder to show the articles based on the topics. You can also dispay directly article using the "Article Detail" page.
+#### Experience Cloud - List of topics
+![Articles in Experience Cloud](../../Images/knowledge_topic_experience.png "Articles in Experience Cloud")
+#### Experience Cloud - Articles related to a specific topic
+![Articles in Experience Cloud](../../Images/knowledge_topic_experience2.png "Articles in Experience Cloud")
 ## Article Migration to Salesforce
 
 Use Bulk API to migrate Article from External Systems into Salesforce.

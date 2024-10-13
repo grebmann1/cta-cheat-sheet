@@ -47,6 +47,11 @@ An easy solution is to use "Data Extension" and Ampscript to dynamicaly fetch th
 ### Synchronize Campaign & Campaign members
 Campaign & Campagin members are synchronize automatically using the Marketing Connector.
 
+### Map Marketing Cloud to your Sandboxes
+Maketing cloud doesn't provide sandboxes, so it's recommended to have BU for each sandbox that need to have an instance of marketing cloud :
+- Staging connected to BU (QA)
+- UA connected to BU (UA)
+- Prod connected to Production BU of marketing cloud
 
 # Products/Features of marketing cloud
 ## Social Studio

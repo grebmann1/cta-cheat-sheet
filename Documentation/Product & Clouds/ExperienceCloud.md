@@ -31,7 +31,7 @@ A comparison of features across different community licenses:
 | Pricebook| Read Only| Read Only| Read Only| Read Only | 
 | Opportunities |❌|❌| ✅  |❌
 | Leads|❌|❌| ✅ | ❌|
-| Tasks| Read Only | ✅ | ✅| ✅ |
+| Tasks| ✅| ✅ | ✅| ✅ |
 | Calendar & Events|Read Only|✅| ✅ | ✅|
 | Service Contract|  ❌| ✅ | ✅ | ✅|
 | Work Order| ✅| ✅ | ✅ | ✅|

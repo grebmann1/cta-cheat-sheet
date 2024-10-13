@@ -64,8 +64,16 @@ Manufacturing Cloud includes industry-specific standard objects, features, tools
 # Documentation
 
 ## Data Model
-### Core Data Model
-![Data Model](../../Images/education-cloud-overview-data-model.png)
+### Sales Agreement
+![Data Model](../../Images/manufacturing_cloud_sales_agreement.png)
+### Inventory Information
+![Data Model](../../Images/manufacturing_cloud_inventory_information.png)
+### Inventory Visit
+![Data Model](../../Images/manufacturing_cloud_visit.png)
+### Inventory Warranty Management
+![Data Model](../../Images/manufacturing_cloud_warranty.png)
+### Inventory Account Manager Target
+![Data Model](../../Images/manufacturing_cloud_account_manager_target.png)
 
 ## Links
 
