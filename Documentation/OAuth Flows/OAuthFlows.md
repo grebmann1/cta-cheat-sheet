@@ -51,7 +51,47 @@ In the IDP initiated Flow, we assume that the user is already logged in the IDP.
 
 ### Web Server Flow
 
+The Web Server Flow is a secure and widely-used method for web applications to obtain access tokens. By using an authorization code, it ensures that the client securely exchanges the code for an access token, reducing the risk of token interception. This flow is particularly useful for web applications that can securely store client secrets.
+
 ![Web Server Flow](../../Images/CTA%20-%20Diagrams%20-%20Web%20Server%20Flow.png)
+
+#### Web Server Flow with PKCE
+PKCE (Proof Key for Code Exchange) is an extension to the OAuth 2.0 authorization code flow designed to improve the security of public clients (e.g., single-page applications, mobile apps) by mitigating the risk of authorization code interception attacks. It is particularly useful for web server integrations where the client is a web application running on a server.
+
+##### 1. Code Verifier and Code Challenge
+
+- **Code Verifier**:
+  - A high-entropy cryptographic random string (e.g., 43-128 characters).
+
+- **Code Challenge**:
+  - Derived from the code verifier using a transformation method (e.g., SHA-256).
+
+```plaintext
+code_challenge = BASE64URL-ENCODE(SHA256(ASCII(code_verifier)))
+```
+
+##### 2. Authorization Request
+
+The client directs the user to the authorization server with the following parameters:
+
+- `response_type=code`
+- `client_id=YOUR_CLIENT_ID`
+- `redirect_uri=YOUR_REDIRECT_URI`
+- `code_challenge=CODE_CHALLENGE`
+- `code_challenge_method=S256`
+
+##### 3. Token Request
+
+The client exchanges the authorization code for an access token by including the following parameters:
+
+- `grant_type=authorization_code`
+- `client_id=YOUR_CLIENT_ID`
+- `code=AUTHORIZATION_CODE`
+- `redirect_uri=YOUR_REDIRECT_URI`
+- `code_verifier=CODE_VERIFIER`
+
+##### Webserver Flow with PKCE
+![Web Server Flow with PKCE](../../Images/oauth_webserver_pkce.png)
 
 ### User Agent Flow
 
@@ -62,9 +102,62 @@ This is a deprecated flow. It's recommended to use the "Web Server Flow" with PK
 ## Servers
 
 ### JWT Bearer Flow
-JWT can include extra information such as user information, context, etc
 
+JSON Web Tokens (JWT) are a compact, URL-safe means of representing claims to be transferred between two parties. They are commonly used for authorization and information exchange.
+
+JWT can be enriched by including extra information such as user information, context, etc
+
+#### Example JWT Structure
+**Header**:
+```json
+{
+  "alg": "RS256",
+  "typ": "JWT"
+}
+```
+
+**Payload**:
+```json
+{
+  "iss": "Client_ID from Step 2.1.1",
+  "sub": "UserName",
+  "aud": "https://login.salesforce.com",
+  "exp": "CurrentTimestamp + 2 minutes"
+}
+```
+
+**Signature**:
+```plaintext
+HMACSHA256(
+  base64UrlEncode(header) + "." +
+  base64UrlEncode(payload),
+  Private Key
+)
+```
+
+#### Steps to Create and Test the JWT Token
+
+1. **Create the Header**:
+   - Define the algorithm (`RS256`) and token type (`JWT`).
+
+2. **Create the Payload**:
+   - Include the `iss`, `sub`, `aud`, and `exp` claims.
+   - Ensure the `exp` claim is set to the current timestamp plus 2 minutes. Use [unixtimestamp.com](https://www.unixtimestamp.com/) to get the current Unix timestamp.
+
+3. **Generate the Signature**:
+   - Encode the header and payload using Base64 URL encoding.
+   - Sign the encoded header and payload using the private key with the `HMACSHA256` algorithm.
+
+4. **Combine the Components**:
+   - Concatenate the Base64 URL encoded header, payload, and the signature with periods (`.`) to form the JWT.
+
+5. **Test the JWT**:
+   - Use [jwt.io](https://jwt.io/) to decode and verify the JWT.
+   - Input your header, payload, and private key to validate the token.
+
+#### JWT Bearer Flow
 ![JWT Bearer Flow](../../Images/CTA%20-%20Diagrams%20-%20JWT%20Bearer%20Flow.png)
+
 
 # Layered Flows (OAuth 2.0 with SAML or OpenId Connect)
 
